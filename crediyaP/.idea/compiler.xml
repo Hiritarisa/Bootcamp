@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.38/57f8f5e02e92a30fd21b80cbd426a4172b5f8e29/lombok-1.18.38.jar" />
+        </processorPath>
+        <module name="crediya.app-service.test" />
+        <module name="crediya.r2dbc-postgresql.test" />
+        <module name="crediya.app-service.main" />
+        <module name="crediya.usecase.test" />
+        <module name="crediya.model.test" />
+        <module name="crediya.usecase.main" />
+        <module name="crediya.model.main" />
+        <module name="crediya.r2dbc-postgresql.main" />
+        <module name="crediya.reactive-web.main" />
+        <module name="crediya.reactive-web.test" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="21" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="crediya" options="-Amapstruct.suppressGeneratorTimestamp=true" />
+      <module name="crediya.app-service" options="-parameters" />
+      <module name="crediya.app-service.main" options="-parameters" />
+      <module name="crediya.app-service.test" options="-parameters" />
+      <module name="crediya.main" options="-Amapstruct.suppressGeneratorTimestamp=true" />
+      <module name="crediya.test" options="-Amapstruct.suppressGeneratorTimestamp=true" />
+    </option>
+  </component>
+</project>
