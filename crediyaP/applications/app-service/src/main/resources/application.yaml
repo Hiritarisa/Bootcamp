@@ -1,0 +1,47 @@
+server:
+  port: 8240
+
+spring:
+  application:
+    name: crediya
+  jackson:
+    property-naming-strategy: SNAKE_CASE
+  devtools:
+    add-properties: false
+
+logging:
+  level:
+    root: INFO
+    com.hiri.crediya: DEBUG
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+  api-docs:
+    path: /v3/api-docs
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,prometheus
+  endpoint:
+    health:
+      probes:
+        enabled: true
+
+adapter:
+  r2dbc:
+    postgresql:
+      host: localhost
+      port: 5433
+      database: crediYa
+      schema: public
+      username: postgres
+      password: "1234@"
+      pool:
+        initialSize: 5
+        maxSize: 20
+        maxIdleMinutes: 30
+cors:
+  allowed-origins: "http://localhost:4200,http://localhost:8080"

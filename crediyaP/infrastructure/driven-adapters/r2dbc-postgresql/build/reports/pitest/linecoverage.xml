@@ -1,0 +1,1117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPool' method='&lt;init&gt;()V' number='0'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPool' method='&lt;init&gt;()V' number='1'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest' method='setUp()V' number='20'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest' method='setUp()V' number='14'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest' method='setUp()V' number='15'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest' method='setUp()V' number='12'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest' method='setUp()V' number='13'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest' method='setUp()V' number='18'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest' method='setUp()V' number='19'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest' method='setUp()V' number='16'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest' method='setUp()V' number='17'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest' method='setUp()V' number='6'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest' method='setUp()V' number='7'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest' method='setUp()V' number='4'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest' method='setUp()V' number='5'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest' method='setUp()V' number='10'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest' method='setUp()V' number='11'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest' method='setUp()V' number='8'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest' method='setUp()V' number='9'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest' method='&lt;init&gt;()V' number='0'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest' method='&lt;init&gt;()V' number='1'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest' method='setUp()V' number='2'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest' method='setUp()V' number='3'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest' method='setUp()V' number='0'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest' method='setUp()V' number='1'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPool' method='getConnectionConfig(Lcom/hiri/crediya/r2dbc/config/PostgresqlConnectionProperties;)Lio/r2dbc/pool/ConnectionPool;' number='15'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPool' method='getConnectionConfig(Lcom/hiri/crediya/r2dbc/config/PostgresqlConnectionProperties;)Lio/r2dbc/pool/ConnectionPool;' number='14'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPool' method='getConnectionConfig(Lcom/hiri/crediya/r2dbc/config/PostgresqlConnectionProperties;)Lio/r2dbc/pool/ConnectionPool;' number='17'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPool' method='getConnectionConfig(Lcom/hiri/crediya/r2dbc/config/PostgresqlConnectionProperties;)Lio/r2dbc/pool/ConnectionPool;' number='16'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPool' method='getConnectionConfig(Lcom/hiri/crediya/r2dbc/config/PostgresqlConnectionProperties;)Lio/r2dbc/pool/ConnectionPool;' number='19'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPool' method='getConnectionConfig(Lcom/hiri/crediya/r2dbc/config/PostgresqlConnectionProperties;)Lio/r2dbc/pool/ConnectionPool;' number='18'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPool' method='getConnectionConfig(Lcom/hiri/crediya/r2dbc/config/PostgresqlConnectionProperties;)Lio/r2dbc/pool/ConnectionPool;' number='21'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPool' method='getConnectionConfig(Lcom/hiri/crediya/r2dbc/config/PostgresqlConnectionProperties;)Lio/r2dbc/pool/ConnectionPool;' number='20'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPool' method='getConnectionConfig(Lcom/hiri/crediya/r2dbc/config/PostgresqlConnectionProperties;)Lio/r2dbc/pool/ConnectionPool;' number='23'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPool' method='getConnectionConfig(Lcom/hiri/crediya/r2dbc/config/PostgresqlConnectionProperties;)Lio/r2dbc/pool/ConnectionPool;' number='22'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPool' method='getConnectionConfig(Lcom/hiri/crediya/r2dbc/config/PostgresqlConnectionProperties;)Lio/r2dbc/pool/ConnectionPool;' number='25'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPool' method='getConnectionConfig(Lcom/hiri/crediya/r2dbc/config/PostgresqlConnectionProperties;)Lio/r2dbc/pool/ConnectionPool;' number='24'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPool' method='getConnectionConfig(Lcom/hiri/crediya/r2dbc/config/PostgresqlConnectionProperties;)Lio/r2dbc/pool/ConnectionPool;' number='26'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPool' method='getConnectionConfig(Lcom/hiri/crediya/r2dbc/config/PostgresqlConnectionProperties;)Lio/r2dbc/pool/ConnectionPool;' number='1'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPool' method='getConnectionConfig(Lcom/hiri/crediya/r2dbc/config/PostgresqlConnectionProperties;)Lio/r2dbc/pool/ConnectionPool;' number='0'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPool' method='getConnectionConfig(Lcom/hiri/crediya/r2dbc/config/PostgresqlConnectionProperties;)Lio/r2dbc/pool/ConnectionPool;' number='3'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest' method='getConnectionConfigSuccess()V' number='2'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPool' method='getConnectionConfig(Lcom/hiri/crediya/r2dbc/config/PostgresqlConnectionProperties;)Lio/r2dbc/pool/ConnectionPool;' number='2'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPool' method='getConnectionConfig(Lcom/hiri/crediya/r2dbc/config/PostgresqlConnectionProperties;)Lio/r2dbc/pool/ConnectionPool;' number='5'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest' method='getConnectionConfigSuccess()V' number='0'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPool' method='getConnectionConfig(Lcom/hiri/crediya/r2dbc/config/PostgresqlConnectionProperties;)Lio/r2dbc/pool/ConnectionPool;' number='4'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest' method='getConnectionConfigSuccess()V' number='1'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPool' method='getConnectionConfig(Lcom/hiri/crediya/r2dbc/config/PostgresqlConnectionProperties;)Lio/r2dbc/pool/ConnectionPool;' number='7'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPool' method='getConnectionConfig(Lcom/hiri/crediya/r2dbc/config/PostgresqlConnectionProperties;)Lio/r2dbc/pool/ConnectionPool;' number='6'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPool' method='getConnectionConfig(Lcom/hiri/crediya/r2dbc/config/PostgresqlConnectionProperties;)Lio/r2dbc/pool/ConnectionPool;' number='9'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPool' method='getConnectionConfig(Lcom/hiri/crediya/r2dbc/config/PostgresqlConnectionProperties;)Lio/r2dbc/pool/ConnectionPool;' number='8'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPool' method='getConnectionConfig(Lcom/hiri/crediya/r2dbc/config/PostgresqlConnectionProperties;)Lio/r2dbc/pool/ConnectionPool;' number='11'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPool' method='getConnectionConfig(Lcom/hiri/crediya/r2dbc/config/PostgresqlConnectionProperties;)Lio/r2dbc/pool/ConnectionPool;' number='10'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPool' method='getConnectionConfig(Lcom/hiri/crediya/r2dbc/config/PostgresqlConnectionProperties;)Lio/r2dbc/pool/ConnectionPool;' number='13'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPool' method='getConnectionConfig(Lcom/hiri/crediya/r2dbc/config/PostgresqlConnectionProperties;)Lio/r2dbc/pool/ConnectionPool;' number='12'><tests>
+<test name='com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.config.PostgreSQLConnectionPoolTest]/[method:getConnectionConfigSuccess()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$7YoRHW06' method='setMockitoInterceptor(Lorg/mockito/internal/creation/bytebuddy/access/MockMethodInterceptor;)V' number='0'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyEntity' method='toEntity(Lcom/hiri/crediya/r2dbc/helper/ReactiveAdapterOperationsTest$DummyData;)Lcom/hiri/crediya/r2dbc/helper/ReactiveAdapterOperationsTest$DummyEntity;' number='0'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='&lt;init&gt;()V' number='1'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyEntity' method='toEntity(Lcom/hiri/crediya/r2dbc/helper/ReactiveAdapterOperationsTest$DummyData;)Lcom/hiri/crediya/r2dbc/helper/ReactiveAdapterOperationsTest$DummyEntity;' number='1'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperations' method='&lt;init&gt;(Lorg/springframework/data/repository/reactive/ReactiveCrudRepository;Lorg/reactivecommons/utils/ObjectMapper;Ljava/util/function/Function;)V' number='4'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyEntity' method='toEntity(Lcom/hiri/crediya/r2dbc/helper/ReactiveAdapterOperationsTest$DummyData;)Lcom/hiri/crediya/r2dbc/helper/ReactiveAdapterOperationsTest$DummyEntity;' number='2'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperations' method='&lt;init&gt;(Lorg/springframework/data/repository/reactive/ReactiveCrudRepository;Lorg/reactivecommons/utils/ObjectMapper;Ljava/util/function/Function;)V' number='3'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyData' method='getName()Ljava/lang/String;' number='0'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyEntity' method='toEntity(Lcom/hiri/crediya/r2dbc/helper/ReactiveAdapterOperationsTest$DummyData;)Lcom/hiri/crediya/r2dbc/helper/ReactiveAdapterOperationsTest$DummyEntity;' number='3'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='&lt;init&gt;()V' number='0'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperations' method='&lt;init&gt;(Lorg/springframework/data/repository/reactive/ReactiveCrudRepository;Lorg/reactivecommons/utils/ObjectMapper;Ljava/util/function/Function;)V' number='2'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperations' method='&lt;init&gt;(Lorg/springframework/data/repository/reactive/ReactiveCrudRepository;Lorg/reactivecommons/utils/ObjectMapper;Ljava/util/function/Function;)V' number='1'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperations' method='&lt;init&gt;(Lorg/springframework/data/repository/reactive/ReactiveCrudRepository;Lorg/reactivecommons/utils/ObjectMapper;Ljava/util/function/Function;)V' number='0'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='setUp()V' number='0'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyEntity' method='equals(Ljava/lang/Object;)Z' number='13'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='setUp()V' number='1'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='setUp()V' number='2'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='setUp()V' number='3'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$1' method='&lt;init&gt;(Lcom/hiri/crediya/r2dbc/helper/ReactiveAdapterOperationsTest;Lcom/hiri/crediya/r2dbc/helper/ReactiveAdapterOperationsTest$DummyRepository;Lorg/reactivecommons/utils/ObjectMapper;Ljava/util/function/Function;)V' number='1'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$1' method='&lt;init&gt;(Lcom/hiri/crediya/r2dbc/helper/ReactiveAdapterOperationsTest;Lcom/hiri/crediya/r2dbc/helper/ReactiveAdapterOperationsTest$DummyRepository;Lorg/reactivecommons/utils/ObjectMapper;Ljava/util/function/Function;)V' number='0'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyEntity' method='&lt;init&gt;(Ljava/lang/String;Ljava/lang/String;)V' number='1'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyEntity' method='&lt;init&gt;(Ljava/lang/String;Ljava/lang/String;)V' number='0'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperations' method='toEntity(Ljava/lang/Object;)Ljava/lang/Object;' number='0'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$7YoRHW06' method='&lt;clinit&gt;()V' number='6'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$7YoRHW06' method='&lt;clinit&gt;()V' number='7'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$7YoRHW06' method='&lt;clinit&gt;()V' number='4'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$7YoRHW06' method='&lt;clinit&gt;()V' number='5'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$7YoRHW06' method='&lt;clinit&gt;()V' number='2'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$7YoRHW06' method='&lt;clinit&gt;()V' number='3'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$7YoRHW06' method='&lt;clinit&gt;()V' number='0'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$7YoRHW06' method='&lt;clinit&gt;()V' number='1'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$7YoRHW06' method='&lt;clinit&gt;()V' number='22'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$7YoRHW06' method='&lt;clinit&gt;()V' number='23'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$7YoRHW06' method='&lt;clinit&gt;()V' number='20'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$7YoRHW06' method='&lt;clinit&gt;()V' number='21'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$7YoRHW06' method='&lt;clinit&gt;()V' number='18'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$7YoRHW06' method='&lt;clinit&gt;()V' number='19'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$7YoRHW06' method='&lt;clinit&gt;()V' number='16'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$7YoRHW06' method='&lt;clinit&gt;()V' number='17'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$7YoRHW06' method='&lt;clinit&gt;()V' number='14'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$7YoRHW06' method='&lt;clinit&gt;()V' number='15'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$7YoRHW06' method='&lt;clinit&gt;()V' number='12'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$7YoRHW06' method='&lt;clinit&gt;()V' number='13'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$7YoRHW06' method='&lt;clinit&gt;()V' number='10'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$7YoRHW06' method='&lt;clinit&gt;()V' number='11'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$7YoRHW06' method='&lt;clinit&gt;()V' number='8'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$7YoRHW06' method='&lt;clinit&gt;()V' number='9'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='findAll()V' number='8'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='findAll()V' number='7'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='findAll()V' number='6'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyEntity' method='hashCode()I' number='0'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='findAll()V' number='5'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyEntity' method='hashCode()I' number='1'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='findAll()V' number='12'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='findAll()V' number='11'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperations' method='toEntity(Ljava/lang/Object;)Ljava/lang/Object;' number='4'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='findAll()V' number='10'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperations' method='toEntity(Ljava/lang/Object;)Ljava/lang/Object;' number='1'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='findAll()V' number='9'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperations' method='toEntity(Ljava/lang/Object;)Ljava/lang/Object;' number='2'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='findAll()V' number='0'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='findAll()V' number='4'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$7YoRHW06' method='&lt;clinit&gt;()V' number='26'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='findAll()V' number='3'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='findAll()V' number='2'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$7YoRHW06' method='&lt;clinit&gt;()V' number='24'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='findAll()V' number='1'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$7YoRHW06' method='&lt;clinit&gt;()V' number='25'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyData' method='getId()Ljava/lang/String;' number='0'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$7YoRHW06' method='&lt;init&gt;()V' number='0'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperations' method='findAll()Lreactor/core/publisher/Flux;' number='2'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$7YoRHW06' method='&lt;init&gt;()V' number='1'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperations' method='findAll()Lreactor/core/publisher/Flux;' number='1'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperations' method='findAll()Lreactor/core/publisher/Flux;' number='0'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$7YoRHW06' method='findAll()Lreactor/core/publisher/Flux;' number='1'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$7YoRHW06' method='findAll()Lreactor/core/publisher/Flux;' number='0'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyEntity' method='equals(Ljava/lang/Object;)Z' number='9'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyEntity' method='equals(Ljava/lang/Object;)Z' number='10'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyEntity' method='equals(Ljava/lang/Object;)Z' number='11'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyEntity' method='equals(Ljava/lang/Object;)Z' number='5'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyEntity' method='equals(Ljava/lang/Object;)Z' number='7'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyEntity' method='equals(Ljava/lang/Object;)Z' number='8'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyData' method='&lt;init&gt;(Ljava/lang/String;Ljava/lang/String;)V' number='1'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyEntity' method='equals(Ljava/lang/Object;)Z' number='2'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyEntity' method='equals(Ljava/lang/Object;)Z' number='3'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyEntity' method='equals(Ljava/lang/Object;)Z' number='4'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyData' method='&lt;init&gt;(Ljava/lang/String;Ljava/lang/String;)V' number='0'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyEntity' method='equals(Ljava/lang/Object;)Z' number='0'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findAll()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='findById()V' number='10'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='findById()V' number='1'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='findById()V' number='0'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='findById()V' number='5'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='findById()V' number='4'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='findById()V' number='3'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='findById()V' number='2'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='findById()V' number='9'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='findById()V' number='8'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='findById()V' number='7'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='findById()V' number='6'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperations' method='findById(Ljava/lang/Object;)Lreactor/core/publisher/Mono;' number='0'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperations' method='findById(Ljava/lang/Object;)Lreactor/core/publisher/Mono;' number='1'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperations' method='findById(Ljava/lang/Object;)Lreactor/core/publisher/Mono;' number='2'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$7YoRHW06' method='findById(Ljava/lang/String;)Lreactor/core/publisher/Mono;' number='0'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$7YoRHW06' method='findById(Ljava/lang/String;)Lreactor/core/publisher/Mono;' number='1'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findById()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperations' method='saveData(Lreactor/core/publisher/Flux;)Lreactor/core/publisher/Flux;' number='1'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperations' method='saveData(Lreactor/core/publisher/Flux;)Lreactor/core/publisher/Flux;' number='0'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='saveAllEntities()V' number='20'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='saveAllEntities()V' number='19'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='saveAllEntities()V' number='18'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='saveAllEntities()V' number='17'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='saveAllEntities()V' number='16'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='saveAllEntities()V' number='15'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='saveAllEntities()V' number='14'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='saveAllEntities()V' number='13'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='saveAllEntities()V' number='12'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='saveAllEntities()V' number='11'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='saveAllEntities()V' number='10'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='saveAllEntities()V' number='9'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='saveAllEntities()V' number='8'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='saveAllEntities()V' number='7'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='saveAllEntities()V' number='6'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='saveAllEntities()V' number='5'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='saveAllEntities()V' number='4'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='saveAllEntities()V' number='3'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='saveAllEntities()V' number='2'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='saveAllEntities()V' number='1'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='saveAllEntities()V' number='0'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperations' method='saveAllEntities(Lreactor/core/publisher/Flux;)Lreactor/core/publisher/Flux;' number='0'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperations' method='saveAllEntities(Lreactor/core/publisher/Flux;)Lreactor/core/publisher/Flux;' number='1'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperations' method='saveAllEntities(Lreactor/core/publisher/Flux;)Lreactor/core/publisher/Flux;' number='2'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperations' method='saveAllEntities(Lreactor/core/publisher/Flux;)Lreactor/core/publisher/Flux;' number='3'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$7YoRHW06' method='saveAll(Lorg/reactivestreams/Publisher;)Lreactor/core/publisher/Flux;' number='1'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$7YoRHW06' method='saveAll(Lorg/reactivestreams/Publisher;)Lreactor/core/publisher/Flux;' number='0'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyEntity' method='equals(Ljava/lang/Object;)Z' number='12'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:saveAllEntities()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='findByExample()V' number='8'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperations' method='toData(Ljava/lang/Object;)Ljava/lang/Object;' number='0'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='findByExample()V' number='7'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperations' method='toData(Ljava/lang/Object;)Ljava/lang/Object;' number='1'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='findByExample()V' number='10'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='findByExample()V' number='9'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='findByExample()V' number='4'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='findByExample()V' number='3'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='findByExample()V' number='6'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='findByExample()V' number='5'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='findByExample()V' number='0'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperations' method='findByExample(Ljava/lang/Object;)Lreactor/core/publisher/Flux;' number='4'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperations' method='findByExample(Ljava/lang/Object;)Lreactor/core/publisher/Flux;' number='3'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='findByExample()V' number='2'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='findByExample()V' number='1'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperations' method='findByExample(Ljava/lang/Object;)Lreactor/core/publisher/Flux;' number='0'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperations' method='findByExample(Ljava/lang/Object;)Lreactor/core/publisher/Flux;' number='2'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperations' method='findByExample(Ljava/lang/Object;)Lreactor/core/publisher/Flux;' number='1'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$7YoRHW06' method='findAll(Lorg/springframework/data/domain/Example;)Lreactor/core/publisher/Flux;' number='1'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$7YoRHW06' method='findAll(Lorg/springframework/data/domain/Example;)Lreactor/core/publisher/Flux;' number='0'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='findByExample()V' number='12'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='findByExample()V' number='11'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='findByExample()V' number='14'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='findByExample()V' number='13'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:findByExample()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='save()V' number='12'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='save()V' number='13'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='save()V' number='10'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='save()V' number='11'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='save()V' number='8'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='save()V' number='9'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$7YoRHW06' method='save(Lcom/hiri/crediya/r2dbc/helper/ReactiveAdapterOperationsTest$DummyData;)Lreactor/core/publisher/Mono;' number='1'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest$DummyRepository$MockitoMock$7YoRHW06' method='save(Lcom/hiri/crediya/r2dbc/helper/ReactiveAdapterOperationsTest$DummyData;)Lreactor/core/publisher/Mono;' number='0'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperations' method='save(Ljava/lang/Object;)Lreactor/core/publisher/Mono;' number='3'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperations' method='save(Ljava/lang/Object;)Lreactor/core/publisher/Mono;' number='2'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperations' method='save(Ljava/lang/Object;)Lreactor/core/publisher/Mono;' number='1'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperations' method='save(Ljava/lang/Object;)Lreactor/core/publisher/Mono;' number='0'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='save()V' number='6'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='save()V' number='7'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='save()V' number='4'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='save()V' number='5'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='save()V' number='2'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='save()V' number='3'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='save()V' number='0'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest' method='save()V' number='1'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperations' method='saveData(Ljava/lang/Object;)Lreactor/core/publisher/Mono;' number='0'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperations' method='saveData(Ljava/lang/Object;)Lreactor/core/publisher/Mono;' number='1'><tests>
+<test name='com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest.[engine:junit-jupiter]/[class:com.hiri.crediya.r2dbc.helper.ReactiveAdapterOperationsTest]/[method:save()]'/>
+</tests>
+</block>
+</coverage>

@@ -1,0 +1,43 @@
+apply plugin: 'org.springframework.boot'
+
+configurations {
+    developmentOnly
+    runtimeClasspath {
+        extendsFrom developmentOnly
+    }
+}
+
+dependencies {
+    implementation project(':reactive-web')
+    implementation project(':r2dbc-postgresql')
+    implementation project(':model')
+    implementation project(':usecase')
+
+    implementation 'org.springframework.boot:spring-boot-starter-webflux'
+    implementation 'org.springframework.boot:spring-boot-starter-data-r2dbc'
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
+    implementation 'org.springdoc:springdoc-openapi-starter-webflux-ui:2.5.0'
+    implementation 'org.reactivecommons.utils:object-mapper:0.1.0'
+
+    runtimeOnly 'org.postgresql:r2dbc-postgresql:1.0.5.RELEASE'
+    developmentOnly 'org.springframework.boot:spring-boot-devtools'
+
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation 'io.projectreactor:reactor-test'
+    testImplementation 'com.tngtech.archunit:archunit:1.4.1'
+    testImplementation 'com.tngtech.archunit:archunit-junit5:1.4.1'
+    testImplementation 'com.fasterxml.jackson.core:jackson-databind'
+}
+
+tasks.register('explodedJar', Copy) {
+    with jar
+    into layout.buildDirectory.dir("exploded")
+}
+
+jar {
+    enabled = false
+}
+
+bootJar {
+    archiveFileName = "${project.getParent().getName()}.${archiveExtension.get()}"
+}

@@ -1,0 +1,892 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage>
+<block classname='com.hiri.crediya.Utils$JavaFile' method='&lt;init&gt;(Ljava/lang/String;Ljava/lang/String;)V' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:useCaseFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$JavaFile' method='&lt;init&gt;(Ljava/lang/String;Ljava/lang/String;)V' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:useCaseFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$1' method='&lt;init&gt;(Ljava/util/Map;)V' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:useCaseFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$1' method='&lt;init&gt;(Ljava/util/Map;)V' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:useCaseFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='domainClassesShouldNotBeNamedWithToolNames()V' number='6'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='domainClassesShouldNotBeNamedWithToolNames()V' number='5'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='domainClassesShouldNotBeNamedWithToolNames()V' number='4'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='domainClassesShouldNotBeNamedWithToolNames()V' number='3'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest$1' method='test(Lcom/tngtech/archunit/core/domain/JavaClass;)Z' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='findFiles()Ljava/util/Map;' number='15'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:useCaseFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest$1' method='test(Lcom/tngtech/archunit/core/domain/JavaClass;)Z' number='2'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='domainClassesShouldNotBeNamedWithToolNames()V' number='8'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='domainClassesShouldNotBeNamedWithToolNames()V' number='7'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest$1' method='test(Lcom/tngtech/archunit/core/domain/JavaClass;)Z' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest$1' method='test(Lcom/tngtech/archunit/core/domain/JavaClass;)Z' number='5'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='findFiles()Ljava/util/Map;' number='11'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:useCaseFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='findFiles()Ljava/util/Map;' number='10'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:useCaseFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest$1' method='test(Lcom/tngtech/archunit/core/domain/JavaClass;)Z' number='3'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='findFiles()Ljava/util/Map;' number='12'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:useCaseFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='domainClassesShouldNotBeNamedWithToolNames()V' number='2'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='findFiles()Ljava/util/Map;' number='7'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:useCaseFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='domainClassesShouldNotBeNamedWithToolNames()V' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='findFiles()Ljava/util/Map;' number='6'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:useCaseFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='domainClassesShouldNotBeNamedWithToolNames()V' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='findFiles()Ljava/util/Map;' number='9'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:useCaseFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='findFiles()Ljava/util/Map;' number='8'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:useCaseFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='&lt;clinit&gt;()V' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='findFiles()Ljava/util/Map;' number='3'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:useCaseFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$1' method='visitFile(Ljava/nio/file/Path;Ljava/nio/file/attribute/BasicFileAttributes;)Ljava/nio/file/FileVisitResult;' number='4'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:useCaseFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='&lt;clinit&gt;()V' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='findFiles()Ljava/util/Map;' number='2'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:useCaseFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$1' method='visitFile(Ljava/nio/file/Path;Ljava/nio/file/attribute/BasicFileAttributes;)Ljava/nio/file/FileVisitResult;' number='5'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:useCaseFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='&lt;clinit&gt;()V' number='3'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='findFiles()Ljava/util/Map;' number='5'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:useCaseFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$1' method='visitFile(Ljava/nio/file/Path;Ljava/nio/file/attribute/BasicFileAttributes;)Ljava/nio/file/FileVisitResult;' number='2'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:useCaseFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='&lt;clinit&gt;()V' number='2'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='findFiles()Ljava/util/Map;' number='4'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:useCaseFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$1' method='visitFile(Ljava/nio/file/Path;Ljava/nio/file/attribute/BasicFileAttributes;)Ljava/nio/file/FileVisitResult;' number='3'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:useCaseFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$1' method='visitFile(Ljava/nio/file/Path;Ljava/nio/file/attribute/BasicFileAttributes;)Ljava/nio/file/FileVisitResult;' number='8'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:useCaseFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$1' method='visitFile(Ljava/nio/file/Path;Ljava/nio/file/attribute/BasicFileAttributes;)Ljava/nio/file/FileVisitResult;' number='9'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:useCaseFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='findFiles()Ljava/util/Map;' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:useCaseFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$1' method='visitFile(Ljava/nio/file/Path;Ljava/nio/file/attribute/BasicFileAttributes;)Ljava/nio/file/FileVisitResult;' number='6'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:useCaseFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='findFiles()Ljava/util/Map;' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:useCaseFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$1' method='visitFile(Ljava/nio/file/Path;Ljava/nio/file/attribute/BasicFileAttributes;)Ljava/nio/file/FileVisitResult;' number='7'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:useCaseFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest$1' method='&lt;init&gt;(Ljava/lang/String;[Ljava/lang/Object;)V' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest$1' method='&lt;init&gt;(Ljava/lang/String;[Ljava/lang/Object;)V' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$1' method='visitFile(Ljava/nio/file/Path;Ljava/nio/file/attribute/BasicFileAttributes;)Ljava/nio/file/FileVisitResult;' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:useCaseFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$1' method='visitFile(Ljava/nio/file/Path;Ljava/nio/file/attribute/BasicFileAttributes;)Ljava/nio/file/FileVisitResult;' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:useCaseFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='&lt;init&gt;()V' number='2'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:useCaseFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='&lt;init&gt;()V' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:useCaseFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='&lt;init&gt;()V' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:useCaseFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='&lt;clinit&gt;()V' number='2'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='lambda$domainClassesShouldNotBeNamedWithToolNames$7(Lcom/tngtech/archunit/lang/ArchRule;)V' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='&lt;clinit&gt;()V' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='lambda$domainClassesShouldNotBeNamedWithToolNames$7(Lcom/tngtech/archunit/lang/ArchRule;)V' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='&lt;clinit&gt;()V' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$1' method='visitFile(Ljava/nio/file/Path;Ljava/nio/file/attribute/BasicFileAttributes;)Ljava/nio/file/FileVisitResult;' number='12'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:useCaseFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$1' method='visitFile(Ljava/nio/file/Path;Ljava/nio/file/attribute/BasicFileAttributes;)Ljava/nio/file/FileVisitResult;' number='13'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:useCaseFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$1' method='visitFile(Ljava/nio/file/Path;Ljava/nio/file/attribute/BasicFileAttributes;)Ljava/nio/file/FileVisitResult;' number='10'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:useCaseFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$1' method='visitFile(Ljava/nio/file/Path;Ljava/nio/file/attribute/BasicFileAttributes;)Ljava/nio/file/FileVisitResult;' number='11'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:useCaseFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$1' method='visitFile(Ljava/nio/file/Path;Ljava/nio/file/attribute/BasicFileAttributes;)Ljava/nio/file/FileVisitResult;' number='14'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:useCaseFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$1' method='visitFile(Ljava/nio/file/Path;Ljava/nio/file/attribute/BasicFileAttributes;)Ljava/nio/file/FileVisitResult;' number='15'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:useCaseFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='importClasses()V' number='8'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='importClasses()V' number='4'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='importClasses()V' number='5'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='importClasses()V' number='6'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='importClasses()V' number='7'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='importClasses()V' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='importClasses()V' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='importClasses()V' number='2'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='importClasses()V' number='3'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='checkWithWarning(Ljava/lang/Runnable;)V' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='lambda$domainClassesShouldNotBeNamedWithToolNames$5(Lcom/tngtech/archunit/lang/syntax/elements/ClassesShouldConjunction;Ljava/lang/String;)Lcom/tngtech/archunit/lang/syntax/elements/ClassesShouldConjunction;' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='lambda$domainClassesShouldNotBeNamedWithToolNames$5(Lcom/tngtech/archunit/lang/syntax/elements/ClassesShouldConjunction;Ljava/lang/String;)Lcom/tngtech/archunit/lang/syntax/elements/ClassesShouldConjunction;' number='2'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='lambda$domainClassesShouldNotBeNamedWithToolNames$5(Lcom/tngtech/archunit/lang/syntax/elements/ClassesShouldConjunction;Ljava/lang/String;)Lcom/tngtech/archunit/lang/syntax/elements/ClassesShouldConjunction;' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='checkWithWarning(Ljava/lang/Runnable;)V' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='checkWithWarning(Ljava/lang/Runnable;)V' number='7'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='domainClassesShouldNotHaveFieldsNamedWithToolNames()V' number='3'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='lambda$domainClassesShouldNotHaveFieldsNamedWithToolNames$10(Lcom/tngtech/archunit/lang/ArchRule;)V' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='domainClassesShouldNotHaveFieldsNamedWithToolNames()V' number='4'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='lambda$domainClassesShouldNotHaveFieldsNamedWithToolNames$10(Lcom/tngtech/archunit/lang/ArchRule;)V' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='domainClassesShouldNotHaveFieldsNamedWithToolNames()V' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='domainClassesShouldNotHaveFieldsNamedWithToolNames()V' number='2'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='domainClassesShouldNotHaveFieldsNamedWithToolNames()V' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='domainClassesShouldNotHaveFieldsNamedWithToolNames()V' number='7'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='domainClassesShouldNotHaveFieldsNamedWithToolNames()V' number='8'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='domainClassesShouldNotHaveFieldsNamedWithToolNames()V' number='5'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='domainClassesShouldNotHaveFieldsNamedWithToolNames()V' number='6'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='lambda$domainClassesShouldNotHaveFieldsNamedWithToolNames$8(Lcom/tngtech/archunit/lang/syntax/elements/MembersShouldConjunction;Ljava/lang/String;)Lcom/tngtech/archunit/lang/syntax/elements/MembersShouldConjunction;' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='lambda$domainClassesShouldNotHaveFieldsNamedWithToolNames$8(Lcom/tngtech/archunit/lang/syntax/elements/MembersShouldConjunction;Ljava/lang/String;)Lcom/tngtech/archunit/lang/syntax/elements/MembersShouldConjunction;' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='lambda$domainClassesShouldNotHaveFieldsNamedWithToolNames$8(Lcom/tngtech/archunit/lang/syntax/elements/MembersShouldConjunction;Ljava/lang/String;)Lcom/tngtech/archunit/lang/syntax/elements/MembersShouldConjunction;' number='2'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='useCaseFinalFields()V' number='3'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:useCaseFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='useCaseFinalFields()V' number='4'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:useCaseFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='useCaseFinalFields()V' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:useCaseFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='useCaseFinalFields()V' number='2'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:useCaseFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='useCaseFinalFields()V' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:useCaseFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='useCaseFinalFields()V' number='7'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:useCaseFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='useCaseFinalFields()V' number='8'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:useCaseFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='useCaseFinalFields()V' number='5'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:useCaseFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='useCaseFinalFields()V' number='6'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:useCaseFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='beansShouldOnlyHaveFinalFields()V' number='8'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='beansShouldOnlyHaveFinalFields()V' number='9'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='beansShouldOnlyHaveFinalFields()V' number='10'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='beansShouldOnlyHaveFinalFields()V' number='11'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='beansShouldOnlyHaveFinalFields()V' number='12'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='beansShouldOnlyHaveFinalFields()V' number='13'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='beansShouldOnlyHaveFinalFields()V' number='14'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='beansShouldOnlyHaveFinalFields()V' number='15'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='beansShouldOnlyHaveFinalFields()V' number='16'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='beansShouldOnlyHaveFinalFields()V' number='17'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='beansShouldOnlyHaveFinalFields()V' number='18'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='lambda$beansShouldOnlyHaveFinalFields$11(Lcom/tngtech/archunit/lang/ArchRule;)V' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='lambda$beansShouldOnlyHaveFinalFields$11(Lcom/tngtech/archunit/lang/ArchRule;)V' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='beansShouldOnlyHaveFinalFields()V' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='beansShouldOnlyHaveFinalFields()V' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='beansShouldOnlyHaveFinalFields()V' number='2'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='beansShouldOnlyHaveFinalFields()V' number='3'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='beansShouldOnlyHaveFinalFields()V' number='4'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='beansShouldOnlyHaveFinalFields()V' number='5'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='beansShouldOnlyHaveFinalFields()V' number='6'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='beansShouldOnlyHaveFinalFields()V' number='7'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='lambda$areUsingAnAwsClient$13(Lcom/tngtech/archunit/core/domain/JavaClass;)Z' number='3'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='lambda$areUsingAnAwsClient$13(Lcom/tngtech/archunit/core/domain/JavaClass;)Z' number='2'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='lambda$areUsingAnAwsClient$13(Lcom/tngtech/archunit/core/domain/JavaClass;)Z' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='lambda$areUsingAnAwsClient$13(Lcom/tngtech/archunit/core/domain/JavaClass;)Z' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='areUsingAnAwsClient()Lcom/tngtech/archunit/base/DescribedPredicate;' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='areUsingAnAwsClient()Lcom/tngtech/archunit/base/DescribedPredicate;' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest$2' method='test(Lcom/tngtech/archunit/core/domain/JavaClass;)Z' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest$3' method='&lt;init&gt;(Lcom/hiri/crediya/ArchitectureTest;Ljava/lang/String;[Ljava/lang/Object;Lcom/hiri/crediya/ArchitectureTest$CheckCondition;)V' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest$2' method='test(Lcom/tngtech/archunit/core/domain/JavaClass;)Z' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest$3' method='&lt;init&gt;(Lcom/hiri/crediya/ArchitectureTest;Ljava/lang/String;[Ljava/lang/Object;Lcom/hiri/crediya/ArchitectureTest$CheckCondition;)V' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='lambda$reactiveFlowsShouldUseAwsAsyncClients$1(Lcom/tngtech/archunit/lang/ArchRule;)V' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='lambda$reactiveFlowsShouldUseAwsAsyncClients$1(Lcom/tngtech/archunit/lang/ArchRule;)V' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='withPredicate(Ljava/lang/String;Lcom/hiri/crediya/ArchitectureTest$TestPredicate;)Lcom/tngtech/archunit/base/DescribedPredicate;' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='withPredicate(Ljava/lang/String;Lcom/hiri/crediya/ArchitectureTest$TestPredicate;)Lcom/tngtech/archunit/base/DescribedPredicate;' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='withCondition(Ljava/lang/String;Lcom/hiri/crediya/ArchitectureTest$CheckCondition;)Lcom/tngtech/archunit/lang/ArchCondition;' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='withCondition(Ljava/lang/String;Lcom/hiri/crediya/ArchitectureTest$CheckCondition;)Lcom/tngtech/archunit/lang/ArchCondition;' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest$2' method='&lt;init&gt;(Lcom/hiri/crediya/ArchitectureTest;Ljava/lang/String;[Ljava/lang/Object;Lcom/hiri/crediya/ArchitectureTest$TestPredicate;)V' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest$2' method='&lt;init&gt;(Lcom/hiri/crediya/ArchitectureTest;Ljava/lang/String;[Ljava/lang/Object;Lcom/hiri/crediya/ArchitectureTest$TestPredicate;)V' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='beAwsAsyncClient()Lcom/tngtech/archunit/lang/ArchCondition;' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='beAwsAsyncClient()Lcom/tngtech/archunit/lang/ArchCondition;' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='lambda$areUsingAnAwsClient$12(Lcom/tngtech/archunit/core/domain/Dependency;)Z' number='10'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='lambda$areUsingAnAwsClient$12(Lcom/tngtech/archunit/core/domain/Dependency;)Z' number='11'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='reactiveFlowsShouldUseAwsAsyncClients()V' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='reactiveFlowsShouldUseAwsAsyncClients()V' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='reactiveFlowsShouldUseAwsAsyncClients()V' number='2'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='reactiveFlowsShouldUseAwsAsyncClients()V' number='3'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='reactiveFlowsShouldUseAwsAsyncClients()V' number='4'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='lambda$areUsingAnAwsClient$12(Lcom/tngtech/archunit/core/domain/Dependency;)Z' number='2'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='reactiveFlowsShouldUseAwsAsyncClients()V' number='5'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='lambda$areUsingAnAwsClient$12(Lcom/tngtech/archunit/core/domain/Dependency;)Z' number='3'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='reactiveFlowsShouldUseAwsAsyncClients()V' number='6'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='lambda$areUsingAnAwsClient$12(Lcom/tngtech/archunit/core/domain/Dependency;)Z' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='reactiveFlowsShouldUseAwsAsyncClients()V' number='7'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='lambda$areUsingAnAwsClient$12(Lcom/tngtech/archunit/core/domain/Dependency;)Z' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='reactiveFlowsShouldUseAwsAsyncClients()V' number='8'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='reactiveFlowsShouldUseAwsAsyncClients()V' number='9'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='reactiveFlowsShouldUseAwsAsyncClients()V' number='10'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='lambda$areUsingAnAwsClient$12(Lcom/tngtech/archunit/core/domain/Dependency;)Z' number='4'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='domainClassesShouldNotBeNamedWithTechSuffixes()V' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='domainClassesShouldNotBeNamedWithTechSuffixes()V' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='domainClassesShouldNotBeNamedWithTechSuffixes()V' number='4'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='domainClassesShouldNotBeNamedWithTechSuffixes()V' number='5'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='domainClassesShouldNotBeNamedWithTechSuffixes()V' number='2'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='domainClassesShouldNotBeNamedWithTechSuffixes()V' number='3'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='domainClassesShouldNotBeNamedWithTechSuffixes()V' number='8'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='domainClassesShouldNotBeNamedWithTechSuffixes()V' number='6'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='domainClassesShouldNotBeNamedWithTechSuffixes()V' number='7'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='lambda$domainClassesShouldNotBeNamedWithTechSuffixes$2(Lcom/tngtech/archunit/lang/syntax/elements/ClassesShouldConjunction;Ljava/lang/String;)Lcom/tngtech/archunit/lang/syntax/elements/ClassesShouldConjunction;' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='lambda$domainClassesShouldNotBeNamedWithTechSuffixes$2(Lcom/tngtech/archunit/lang/syntax/elements/ClassesShouldConjunction;Ljava/lang/String;)Lcom/tngtech/archunit/lang/syntax/elements/ClassesShouldConjunction;' number='2'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='lambda$domainClassesShouldNotBeNamedWithTechSuffixes$2(Lcom/tngtech/archunit/lang/syntax/elements/ClassesShouldConjunction;Ljava/lang/String;)Lcom/tngtech/archunit/lang/syntax/elements/ClassesShouldConjunction;' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='lambda$domainClassesShouldNotBeNamedWithTechSuffixes$4(Lcom/tngtech/archunit/lang/ArchRule;)V' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='lambda$domainClassesShouldNotBeNamedWithTechSuffixes$4(Lcom/tngtech/archunit/lang/ArchRule;)V' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+</coverage>
