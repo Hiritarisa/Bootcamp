@@ -6,13 +6,13 @@ import com.hiri.crediya.r2dbc.entity.PersonEntity;
 import lombok.RequiredArgsConstructor;
 import org.springframework.dao.DuplicateKeyException;
 import org.springframework.stereotype.Repository;
+import org.springframework.transaction.reactive.TransactionalOperator;
 import reactor.core.publisher.Mono;
-import java.util.UUID;
 
 @Repository
 @RequiredArgsConstructor
 public class PersonReactiveRepositoryAdapter implements PersonRepository {
-
+    private final TransactionalOperator tx; // ← transacción en INFRA
     private final PersonReactiveRepository jpa;
 
     @Override
@@ -25,6 +25,7 @@ public class PersonReactiveRepositoryAdapter implements PersonRepository {
         PersonEntity data = toData(person);
         return jpa.save(data)
             .map(this::toDomain)
+            .as(tx::transactional)
             .onErrorMap(DuplicateKeyException.class, e -> new RuntimeException("correo_electronico ya registrado"));
     }
 
@@ -33,6 +34,7 @@ public class PersonReactiveRepositoryAdapter implements PersonRepository {
                 .id(u.getId())
                 .names(u.getNames())
                 .lastnames(u.getLastnames())
+                .document(u.getDocument())
                 .birthdate(u.getBirthdate())
                 .address(u.getAddress())
                 .phone(u.getPhone())
@@ -46,6 +48,7 @@ public class PersonReactiveRepositoryAdapter implements PersonRepository {
                 .id(d.getId())
                 .names(d.getNames())
                 .lastnames(d.getLastnames())
+                .document(d.getDocument())
                 .birthdate(d.getBirthdate())
                 .address(d.getAddress())
                 .phone(d.getPhone())

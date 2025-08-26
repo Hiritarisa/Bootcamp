@@ -14,6 +14,7 @@ public class Person {
     private UUID id;
     private String names;
     private String lastnames;
+    private String document;
     private LocalDate birthdate;
     private String address;
     private String phone;

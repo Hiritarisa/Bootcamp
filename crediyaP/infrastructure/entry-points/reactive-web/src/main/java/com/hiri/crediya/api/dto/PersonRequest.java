@@ -14,6 +14,7 @@ import java.time.LocalDate;
 public class PersonRequest {
     @NotBlank private String names;
     @NotBlank private String lastnames;
+    @NotBlank private String document;
     private LocalDate birthdate;
     private String address;
     private String phone;

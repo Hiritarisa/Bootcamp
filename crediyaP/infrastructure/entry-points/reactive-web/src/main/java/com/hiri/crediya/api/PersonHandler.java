@@ -9,12 +9,13 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Component;
-import org.springframework.validation.BindException;
 import org.springframework.web.reactive.function.server.ServerRequest;
 import org.springframework.web.reactive.function.server.ServerResponse;
+import org.springframework.web.server.ResponseStatusException;
 import reactor.core.publisher.Mono;
-
 import java.net.URI;
+
+import static org.springframework.http.HttpStatus.BAD_REQUEST;
 
 @Slf4j
 @Component
@@ -38,11 +39,11 @@ public class PersonHandler {
     }
 
     private Mono<PersonRequest> validate(PersonRequest r) {
-        var result = validator.validate(r);
-        if (!result.isEmpty()) {
-            var ex = new BindException(r, "personRequest");
-            result.forEach(v -> ex.rejectValue(v.getPropertyPath().toString(), "invalid", v.getMessage()));
-            return Mono.error(ex);
+        var violations = validator.validate(r);
+        if (!violations.isEmpty()) {
+            // toma el primer mensaje nada más
+            String msg = violations.iterator().next().getMessage();
+            return Mono.error(new ResponseStatusException(BAD_REQUEST, msg));
         }
         return Mono.just(r);
     }
@@ -51,6 +52,7 @@ public class PersonHandler {
         return Person.builder()
                 .names(r.getNames())
                 .lastnames(r.getLastnames())
+                .document(r.getDocument())
                 .birthdate(r.getBirthdate())
                 .address(r.getAddress())
                 .phone(r.getPhone())
@@ -64,6 +66,7 @@ public class PersonHandler {
                 .id(p.getId())
                 .names(p.getNames())
                 .lastnames(p.getLastnames())
+                .document(p.getDocument())
                 .email(p.getEmail())
                 .build();
     }

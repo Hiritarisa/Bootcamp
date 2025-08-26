@@ -8,6 +8,14 @@ spring:
     property-naming-strategy: SNAKE_CASE
   devtools:
     add-properties: false
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5433/crediYa
+    username: postgres
+    password: "1234@"
+    pool:
+      enabled: true
+      initial-size: 5
+      max-size: 20
 
 logging:
   level:
@@ -30,18 +38,5 @@ management:
       probes:
         enabled: true
 
-adapter:
-  r2dbc:
-    postgresql:
-      host: localhost
-      port: 5433
-      database: crediYa
-      schema: public
-      username: postgres
-      password: "1234@"
-      pool:
-        initialSize: 5
-        maxSize: 20
-        maxIdleMinutes: 30
 cors:
-  allowed-origins: "http://localhost:4200,http://localhost:8080"
+  allowed-origins: "http://localhost:4200,http://localhost:8240,http://localhost:8241"

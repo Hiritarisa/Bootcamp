@@ -11,5 +11,6 @@ public class PersonResponse {
     UUID id;
     String names;
     String lastnames;
+    String document;
     String email;
 }
