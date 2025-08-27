@@ -3,6 +3,7 @@ package com.hiri.crediya.usecase.personregistry;
 import com.hiri.crediya.model.person.Person;
 import com.hiri.crediya.model.person.gateways.PersonRepository;
 import lombok.RequiredArgsConstructor;
+import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 import java.math.BigDecimal;
 
@@ -12,11 +13,21 @@ public class PersonUseCase {
 
     public Mono<Person> execute(Person person) {
         return validatePerson(person)
-                .flatMap(p -> repository.findByEmail(p.getEmail())
-                        .flatMap(exist -> exist
-                            ? Mono.error(new PersonUseCaseException("Email already registered: "+ p.getEmail()))
-                            : repository.save(p))
-                );
+            .flatMap(p -> repository.existsByEmailOrDocument(p.getEmail(),p.getDocument())
+                .flatMap(exist -> exist
+                    ? Mono.error(new PersonUseCaseException("Email already registered: "+ p.getEmail()))
+                    : repository.save(p))
+            );
+    }
+
+    public Mono<Person> findByDocument(String document){
+        return repository.findByDocument(document)
+                .switchIfEmpty(Mono.error(new PersonUseCaseException("Person not found: "+ document)));
+    }
+
+    public Flux<Person> getList(int page, int size){
+        return repository.getAllPersons(page, size)
+                .switchIfEmpty(Mono.error(new PersonUseCaseException("There are no persons in the system")));
     }
 
     private Mono<Person> validatePerson(Person u) {

@@ -27,22 +27,53 @@ public class PersonHandler {
 
     public Mono<ServerResponse> create(ServerRequest req) {
         return req.bodyToMono(PersonRequest.class)
-                .flatMap(this::validate)
-                .map(this::toDomain)
-                .flatMap(personUseCase::execute)
-                .flatMap(p -> {
-                    log.info("Persona creada id={}", p.getId());
-                    return ServerResponse.created(URI.create("/api/v1/usuarios/" + p.getId()))
-                            .contentType(MediaType.APPLICATION_JSON)
-                            .bodyValue(toResponse(p));
-                });
+            .flatMap(this::validate)
+            .map(this::toDomain)
+            .flatMap(personUseCase::execute)
+            .flatMap(p -> {
+                log.info("Person created id={}", p.getId());
+                return ServerResponse.created(URI.create("/api/v1/usuarios/" + p.getId()))
+                    .contentType(MediaType.APPLICATION_JSON)
+                    .bodyValue(toResponse(p));
+            });
+    }
+
+    public Mono<ServerResponse> getPerson(ServerRequest req) {
+        String document = req.pathVariable("document");
+        return personUseCase.findByDocument(document)
+            .map(this::toResponse)
+            .flatMap(res -> {
+                log.info("Person found id={}", res.getId());
+                return ServerResponse.ok().contentType(MediaType.APPLICATION_JSON).bodyValue(res);
+            });
+    }
+
+    public Mono<ServerResponse> getAllPersons(ServerRequest req) {
+        int page = 1;
+        int limit = 10;
+        try {
+            page = Integer.parseInt(req.queryParams().getFirst("page"));
+            limit = Integer.parseInt(req.queryParams().getFirst("limit"));
+        } catch (NumberFormatException e) {
+            log.info("Error parsing query params page={} and limit={} will be used default values 1/10 respectively", page, limit);
+        }
+
+        // Postgre pages start at 0. this could be a solution
+        page = page > 0 ? page - 1 : page;
+        limit = (page > 0 ? page : 1) * limit;
+        return personUseCase.getList(page, limit)
+            .map(this::toResponse)
+            .collectList()
+            .flatMap(res -> {
+                log.info("Total persons found {}", res.size());
+                return ServerResponse.ok().contentType(MediaType.APPLICATION_JSON).bodyValue(res);
+            });
     }
 
     private Mono<PersonRequest> validate(PersonRequest r) {
         var violations = validator.validate(r);
         if (!violations.isEmpty()) {
-            // toma el primer mensaje nada más
-            String msg = violations.iterator().next().getMessage();
+            String msg = violations.iterator().next().getPropertyPath() + " " + violations.iterator().next().getMessage();
             return Mono.error(new ResponseStatusException(BAD_REQUEST, msg));
         }
         return Mono.just(r);

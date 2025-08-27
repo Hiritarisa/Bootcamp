@@ -7,26 +7,37 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.dao.DuplicateKeyException;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.reactive.TransactionalOperator;
+import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 @Repository
 @RequiredArgsConstructor
 public class PersonReactiveRepositoryAdapter implements PersonRepository {
     private final TransactionalOperator tx; // ← transacción en INFRA
-    private final PersonReactiveRepository jpa;
+    private final PersonReactiveRepository r2dbc;
 
     @Override
-    public Mono<Boolean> findByEmail(String email) {
-        return jpa.existsByEmail(email);
+    public Mono<Boolean> existsByEmailOrDocument(String email, String document) {
+        return r2dbc.existsByEmailOrDocument(email, document);
+    }
+
+    @Override
+    public Mono<Person> findByDocument(String document) {
+        return r2dbc.findByDocument(document);
+    }
+
+    @Override
+    public Flux<Person> getAllPersons(int page, int size) {
+        return r2dbc.getAllPersons(page, size);
     }
 
     @Override
     public Mono<Person> save(Person person) {
         PersonEntity data = toData(person);
-        return jpa.save(data)
+        return r2dbc.save(data)
             .map(this::toDomain)
             .as(tx::transactional)
-            .onErrorMap(DuplicateKeyException.class, e -> new RuntimeException("correo_electronico ya registrado"));
+            .onErrorMap(DuplicateKeyException.class, e -> new RuntimeException("Email already exists"));
     }
 
     private PersonEntity toData(Person u) {

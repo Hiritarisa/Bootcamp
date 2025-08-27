@@ -67,7 +67,7 @@ public class GlobalErrorHandler implements ErrorWebExceptionHandler {
         // 2) Campos comunes
         body.put("timestamp", Instant.now().toString());
         body.put("status", status.value());
-        body.put("path", exchange.getRequest().getPath().value());
+        body.put("path", exchange.getRequest().getPath().value() + "("+exchange.getRequest().getMethod()+")");
 
         // 3) Escribir respuesta
         var response = exchange.getResponse();

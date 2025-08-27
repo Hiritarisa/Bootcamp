@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.hiri.crediya.ArchitectureTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-08-26T06:59:09.856Z" hostname="MacBook-Pro-de-Nico.local" time="0.105">
+<testsuite name="com.hiri.crediya.ArchitectureTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-08-27T02:01:53.279Z" hostname="MacBook-Pro-de-Nico.local" time="0.103">
   <properties/>
-  <testcase name="domainClassesShouldNotBeNamedWithToolNames()" classname="com.hiri.crediya.ArchitectureTest" time="0.023"/>
+  <testcase name="domainClassesShouldNotBeNamedWithToolNames()" classname="com.hiri.crediya.ArchitectureTest" time="0.022"/>
   <testcase name="domainClassesShouldNotHaveFieldsNamedWithToolNames()" classname="com.hiri.crediya.ArchitectureTest" time="0.007"/>
-  <testcase name="useCaseFinalFields()" classname="com.hiri.crediya.ArchitectureTest" time="0.003"/>
+  <testcase name="useCaseFinalFields()" classname="com.hiri.crediya.ArchitectureTest" time="0.002"/>
   <testcase name="beansShouldOnlyHaveFinalFields()" classname="com.hiri.crediya.ArchitectureTest" time="0.005"/>
   <testcase name="reactiveFlowsShouldUseAwsAsyncClients()" classname="com.hiri.crediya.ArchitectureTest" time="0.015"/>
   <testcase name="domainClassesShouldNotBeNamedWithTechSuffixes()" classname="com.hiri.crediya.ArchitectureTest" time="0.001"/>
-  <system-out><![CDATA[01:59:08.547 [Test worker] INFO com.tngtech.archunit.core.PluginLoader -- Detected Java version 21.0.8
+  <system-out><![CDATA[21:01:52.028 [Test worker] INFO com.tngtech.archunit.core.PluginLoader -- Detected Java version 21.0.8
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
