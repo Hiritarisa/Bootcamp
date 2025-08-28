@@ -15,6 +15,7 @@ import org.springframework.web.reactive.function.server.ServerResponse;
 import org.springframework.web.server.ResponseStatusException;
 import reactor.core.publisher.Mono;
 import java.net.URI;
+import java.util.Objects;
 import java.util.UUID;
 
 import static org.springframework.http.HttpStatus.BAD_REQUEST;
@@ -54,8 +55,8 @@ public class PersonHandler {
         int page = 1;
         int limit = 10;
         try {
-            page = Integer.parseInt(req.queryParams().getFirst("page"));
-            limit = Integer.parseInt(req.queryParams().getFirst("limit"));
+            page = Integer.parseInt(Objects.requireNonNull(req.queryParams().getFirst("page")));
+            limit = Integer.parseInt(Objects.requireNonNull(req.queryParams().getFirst("limit")));
         } catch (NumberFormatException e) {
             log.info("Error parsing query params page={} and limit={} will be used default values 1/10 respectively", page, limit);
         }

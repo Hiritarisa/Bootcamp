@@ -37,8 +37,7 @@ public class PersonUseCase {
     }
 
     public Mono<UUID> delete(UUID id){
-        return repository.findById(id)
-                .switchIfEmpty(Mono.error(new PersonUseCaseException("User not found: "+ id)))
+        return findById(id)
             .flatMap(p -> repository.deletePerson(p.getId()))
             .then(Mono.just(id));
     }
