@@ -9,9 +9,11 @@ import lombok.Data;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
+import java.util.UUID;
 
 @Data
 public class PersonRequest {
+    private UUID id;
     @NotBlank private String names;
     @NotBlank private String lastnames;
     @NotBlank private String document;

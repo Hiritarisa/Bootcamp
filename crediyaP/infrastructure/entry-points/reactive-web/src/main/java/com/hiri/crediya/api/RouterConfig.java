@@ -17,12 +17,16 @@ public class RouterConfig {
     @Bean
     @RouterOperations({
             @RouterOperation(path = "/api/v1/usuarios", beanClass = PersonHandler.class, beanMethod = "create"),
-            @RouterOperation(path = "/api/v1/usuarios/{id}", beanClass = PersonHandler.class, beanMethod = "getPerson"),
-            @RouterOperation(path = "/api/v1/usuarios", beanClass = PersonHandler.class, beanMethod = "getAllPersons")
+            @RouterOperation(path = "/api/v1/usuarios/{document}", beanClass = PersonHandler.class, beanMethod = "getPerson"),
+            @RouterOperation(path = "/api/v1/usuarios", beanClass = PersonHandler.class, beanMethod = "getAllPersons"),
+            @RouterOperation(path = "/api/v1/usuarios{id}", beanClass = PersonHandler.class, beanMethod = "delete"),
+            @RouterOperation(path = "/api/v1/usuarios", beanClass = PersonHandler.class, beanMethod = "update")
     })
     public RouterFunction<ServerResponse> routes(PersonHandler handler) {
         return route(POST("/api/v1/usuarios").and(accept(MediaType.APPLICATION_JSON)), handler::create)
                 .andRoute(GET("/api/v1/usuarios/{document}"), handler::getPerson)
-                .andRoute(GET("/api/v1/usuarios"), handler::getAllPersons);
+                .andRoute(GET("/api/v1/usuarios"), handler::getAllPersons)
+                .andRoute(DELETE("/api/v1/usuarios/{id}"), handler::delete)
+                .andRoute(PATCH("/api/v1/usuarios").and(accept(MediaType.APPLICATION_JSON)), handler::update);
     }
 }

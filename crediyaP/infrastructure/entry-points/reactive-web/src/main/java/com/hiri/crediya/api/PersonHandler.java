@@ -1,5 +1,6 @@
 package com.hiri.crediya.api;
 
+import com.hiri.crediya.api.dto.DeleteResponse;
 import com.hiri.crediya.api.dto.PersonRequest;
 import com.hiri.crediya.api.dto.PersonResponse;
 import com.hiri.crediya.model.person.Person;
@@ -14,6 +15,7 @@ import org.springframework.web.reactive.function.server.ServerResponse;
 import org.springframework.web.server.ResponseStatusException;
 import reactor.core.publisher.Mono;
 import java.net.URI;
+import java.util.UUID;
 
 import static org.springframework.http.HttpStatus.BAD_REQUEST;
 
@@ -62,11 +64,32 @@ public class PersonHandler {
         page = page > 0 ? page - 1 : page;
         limit = (page > 0 ? page : 1) * limit;
         return personUseCase.getList(page, limit)
-            .map(this::toResponse)
             .collectList()
             .flatMap(res -> {
                 log.info("Total persons found {}", res.size());
                 return ServerResponse.ok().contentType(MediaType.APPLICATION_JSON).bodyValue(res);
+            });
+    }
+
+    public Mono<ServerResponse> delete(ServerRequest req) {
+        UUID ID = UUID.fromString(req.pathVariable("id"));
+        return personUseCase.delete(ID)
+            .flatMap(id -> {
+                Person person = new Person();
+                person.setId(id);
+                log.info("Person delete id={}", id);
+                return ServerResponse.ok().contentType(MediaType.APPLICATION_JSON).bodyValue(toDelete(person));
+            });
+    }
+
+    public Mono<ServerResponse> update(ServerRequest req) {
+        return req.bodyToMono(PersonRequest.class)
+            .flatMap(this::validate)
+            .map(this::toUpdate)
+            .flatMap(personUseCase::update)
+            .flatMap(p -> {
+                log.info("Person updated id={}", p.getId());
+                return ServerResponse.accepted().contentType(MediaType.APPLICATION_JSON).bodyValue(p);
             });
     }
 
@@ -81,24 +104,35 @@ public class PersonHandler {
 
     private Person toDomain(PersonRequest r) {
         return Person.builder()
-                .names(r.getNames())
-                .lastnames(r.getLastnames())
-                .document(r.getDocument())
-                .birthdate(r.getBirthdate())
-                .address(r.getAddress())
-                .phone(r.getPhone())
-                .email(r.getEmail())
-                .baseSalary(r.getBaseSalary())
-                .build();
+            .names(r.getNames())
+            .lastnames(r.getLastnames())
+            .document(r.getDocument())
+            .birthdate(r.getBirthdate())
+            .address(r.getAddress())
+            .phone(r.getPhone())
+            .email(r.getEmail())
+            .baseSalary(r.getBaseSalary())
+            .build();
+    }
+
+    private Person toUpdate(PersonRequest r) {
+        Person domain = toDomain(r);
+        return domain.toBuilder().id(r.getId()).build();
     }
 
     private PersonResponse toResponse(Person p) {
         return PersonResponse.builder()
-                .id(p.getId())
-                .names(p.getNames())
-                .lastnames(p.getLastnames())
-                .document(p.getDocument())
-                .email(p.getEmail())
-                .build();
+            .id(p.getId())
+            .names(p.getNames())
+            .lastnames(p.getLastnames())
+            .document(p.getDocument())
+            .email(p.getEmail())
+            .build();
+    }
+
+    private DeleteResponse toDelete(Person p) {
+        return DeleteResponse.builder()
+            .message("Deleted user " + p.getId())
+            .build();
     }
 }

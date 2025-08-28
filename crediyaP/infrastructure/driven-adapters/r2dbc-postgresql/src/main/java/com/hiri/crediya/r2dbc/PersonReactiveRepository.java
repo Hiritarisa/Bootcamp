@@ -15,7 +15,8 @@ public interface PersonReactiveRepository extends R2dbcRepository<PersonEntity, 
 
     Mono<Boolean> existsByEmailOrDocument(String email, String document);
     Mono<Person> findByDocument(String document);
-
+    Mono<Void> deleteById(UUID id);
+    Mono<Person> getById(UUID id);
     @Query("SELECT * FROM persons ORDER BY id LIMIT :limit OFFSET :offset")
     Flux<Person> getAllPersons(@Param("offset")int page, @Param("limit")int size);
 }

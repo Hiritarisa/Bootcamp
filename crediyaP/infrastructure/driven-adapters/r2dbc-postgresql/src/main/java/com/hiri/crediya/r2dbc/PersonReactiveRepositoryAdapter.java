@@ -10,6 +10,8 @@ import org.springframework.transaction.reactive.TransactionalOperator;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
+import java.util.UUID;
+
 @Repository
 @RequiredArgsConstructor
 public class PersonReactiveRepositoryAdapter implements PersonRepository {
@@ -27,8 +29,19 @@ public class PersonReactiveRepositoryAdapter implements PersonRepository {
     }
 
     @Override
+    public Mono<Person> findById(UUID id) {
+        return r2dbc.getById(id);
+    }
+
+    @Override
     public Flux<Person> getAllPersons(int page, int size) {
         return r2dbc.getAllPersons(page, size);
+    }
+
+    @Override
+    public Mono<Void> deletePerson(UUID id) {
+        return r2dbc.deleteById(id)
+            .as(tx::transactional);
     }
 
     @Override
@@ -37,7 +50,7 @@ public class PersonReactiveRepositoryAdapter implements PersonRepository {
         return r2dbc.save(data)
             .map(this::toDomain)
             .as(tx::transactional)
-            .onErrorMap(DuplicateKeyException.class, e -> new RuntimeException("Email already exists"));
+            .onErrorMap(DuplicateKeyException.class, e -> new RuntimeException("User already exists"));
     }
 
     private PersonEntity toData(Person u) {
