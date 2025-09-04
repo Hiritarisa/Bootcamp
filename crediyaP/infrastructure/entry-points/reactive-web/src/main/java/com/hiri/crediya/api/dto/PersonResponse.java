@@ -13,4 +13,5 @@ public class PersonResponse {
     String lastnames;
     String document;
     String email;
+    String role;
 }

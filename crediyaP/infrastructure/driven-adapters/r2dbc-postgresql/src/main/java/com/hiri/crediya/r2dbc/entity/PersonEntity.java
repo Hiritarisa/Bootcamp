@@ -21,4 +21,5 @@ public class PersonEntity {
     private String phone;
     private String email;
     private BigDecimal baseSalary;
+    private Integer role;
 }

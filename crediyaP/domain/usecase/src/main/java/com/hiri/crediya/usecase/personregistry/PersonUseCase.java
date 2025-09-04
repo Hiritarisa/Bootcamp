@@ -56,10 +56,11 @@ public class PersonUseCase {
         if (invalidField(u.getDocument())) return Mono.error(new PersonUseCaseException("Document required"));
         if (invalidField(u.getEmail())) return Mono.error(new PersonUseCaseException("Email required"));
         if (u.getBaseSalary() == null) return Mono.error(new PersonUseCaseException("Base Salary required"));
+        if (u.getRole() == null) return Mono.error(new PersonUseCaseException("Role required"));
         if (u.getBaseSalary().compareTo(BigDecimal.ZERO) < 0 || u.getBaseSalary().compareTo(new BigDecimal("15000000")) > 0)
             return Mono.error(new PersonUseCaseException("Base salary out of valid range [0, 15000000]"));
         if (!u.getEmail().matches("^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+$"))
-            return Mono.error(new PersonUseCaseException("Invalid email"));
+            return Mono.error(new PersonUseCaseException("Invalid email format"));
         return Mono.just(u);
     }
 

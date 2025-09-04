@@ -64,6 +64,7 @@ public class PersonReactiveRepositoryAdapter implements PersonRepository {
                 .phone(u.getPhone())
                 .email(u.getEmail())
                 .baseSalary(u.getBaseSalary())
+                .role(u.getRole())
                 .build();
     }
 
@@ -78,6 +79,7 @@ public class PersonReactiveRepositoryAdapter implements PersonRepository {
                 .phone(d.getPhone())
                 .email(d.getEmail())
                 .baseSalary(d.getBaseSalary())
+                .role(d.getRole())
                 .build();
     }
 }

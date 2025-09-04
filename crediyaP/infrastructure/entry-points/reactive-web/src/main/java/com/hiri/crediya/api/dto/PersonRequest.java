@@ -22,4 +22,5 @@ public class PersonRequest {
     private String phone;
     @NotBlank @Email private String email;
     @NotNull @DecimalMin("0.0") @DecimalMax("15000000.0") private BigDecimal baseSalary;
+    @NotBlank private String role;
 }
