@@ -17,10 +17,10 @@ public class PersonRequest {
     @NotBlank private String names;
     @NotBlank private String lastnames;
     @NotBlank private String document;
-    private LocalDate birthdate;
-    private String address;
-    private String phone;
+    @NotNull private LocalDate birthdate;
+    @NotNull private String address;
+    @NotNull private String phone;
     @NotBlank @Email private String email;
     @NotNull @DecimalMin("0.0") @DecimalMax("15000000.0") private BigDecimal baseSalary;
-    @NotBlank private String role;
+    private String role;
 }

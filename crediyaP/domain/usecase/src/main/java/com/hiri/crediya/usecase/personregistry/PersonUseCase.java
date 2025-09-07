@@ -5,6 +5,7 @@ import com.hiri.crediya.model.person.gateways.PersonRepository;
 import lombok.RequiredArgsConstructor;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
+
 import java.math.BigDecimal;
 import java.util.UUID;
 
@@ -14,39 +15,39 @@ public class PersonUseCase {
 
     public Mono<Person> execute(Person person) {
         return validatePerson(person)
-            .flatMap(p -> repository.existsByEmailOrDocument(p.getEmail(),p.getDocument())
-                .flatMap(exist -> exist
-                    ? Mono.error(new PersonUseCaseException("Person document or email already registered "+ p.getEmail() + "-" + p.getDocument() ))
-                    : repository.save(p))
-            );
+                .flatMap(p -> repository.existsByEmailOrDocument(p.getEmail(), p.getDocument())
+                        .flatMap(exist -> exist
+                                ? Mono.error(new PersonUseCaseException("Person document or email already registered " + p.getEmail() + "-" + p.getDocument()))
+                                : repository.save(p))
+                );
     }
 
-    public Mono<Person> findByDocument(String document){
+    public Mono<Person> findByDocument(String document) {
         return repository.findByDocument(document)
-                .switchIfEmpty(Mono.error(new PersonUseCaseException("Person not found: "+ document)));
+                .switchIfEmpty(Mono.error(new PersonUseCaseException("Person not found: " + document)));
     }
 
-    public Flux<Person> getList(int page, int size){
+    public Flux<Person> getList(int page, int size) {
         return repository.getAllPersons(page, size)
                 .switchIfEmpty(Mono.error(new PersonUseCaseException("There are no persons in the system")));
     }
 
-    public Mono<Person> findById(UUID id){
+    public Mono<Person> findById(UUID id) {
         return repository.findById(id)
-            .switchIfEmpty(Mono.error(new PersonUseCaseException("User not found: "+ id)));
+                .switchIfEmpty(Mono.error(new PersonUseCaseException("User not found: " + id)));
     }
 
-    public Mono<UUID> delete(UUID id){
+    public Mono<UUID> delete(UUID id) {
         return findById(id)
-            .flatMap(p -> repository.deletePerson(p.getId()))
-            .then(Mono.just(id));
+                .flatMap(p -> repository.deletePerson(p.getId()))
+                .then(Mono.just(id));
     }
 
-    public Mono<Person> update(Person p){
-        return repository.existsByEmailOrDocument(p.getEmail(),p.getDocument())
-            .flatMap(exist -> exist
-            ? Mono.error(new PersonUseCaseException("Person document or email already registered "+ p.getEmail() + " - " + p.getDocument() ))
-            : repository.save(p));
+    public Mono<Person> update(Person p) {
+        return repository.existsByEmailOrDocument(p.getEmail(), p.getDocument())
+                .flatMap(exist -> exist
+                        ? Mono.error(new PersonUseCaseException("Person document or email already registered " + p.getEmail() + " - " + p.getDocument()))
+                        : repository.save(p));
     }
 
     private Mono<Person> validatePerson(Person u) {
@@ -64,10 +65,14 @@ public class PersonUseCase {
         return Mono.just(u);
     }
 
-    private boolean invalidField(String v) { return v == null || v.trim().isEmpty(); }
+    private boolean invalidField(String v) {
+        return v == null || v.trim().isEmpty();
+    }
 
     public static class PersonUseCaseException extends RuntimeException {
-        public PersonUseCaseException(String msg) {super(msg);}
+        public PersonUseCaseException(String msg) {
+            super(msg);
+        }
     }
 }
 

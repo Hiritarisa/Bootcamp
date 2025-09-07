@@ -5,14 +5,19 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.relational.core.mapping.Table;
 
 import java.math.BigDecimal;
+import java.math.BigInteger;
 import java.time.LocalDate;
 import java.util.UUID;
 
-@Getter @Setter @Builder
-@AllArgsConstructor @NoArgsConstructor
+@Getter
+@Setter
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
 @Table("persons")
 public class PersonEntity {
-    @Id private UUID id;
+    @Id
+    private UUID id;
     private String names;
     private String lastnames;
     private String document;
@@ -21,5 +26,5 @@ public class PersonEntity {
     private String phone;
     private String email;
     private BigDecimal baseSalary;
-    private Integer role;
+    private BigInteger role;
 }

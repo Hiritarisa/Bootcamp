@@ -41,16 +41,16 @@ public class PersonReactiveRepositoryAdapter implements PersonRepository {
     @Override
     public Mono<Void> deletePerson(UUID id) {
         return r2dbc.deleteById(id)
-            .as(tx::transactional);
+                .as(tx::transactional);
     }
 
     @Override
     public Mono<Person> save(Person person) {
         PersonEntity data = toData(person);
         return r2dbc.save(data)
-            .map(this::toDomain)
-            .as(tx::transactional)
-            .onErrorMap(DuplicateKeyException.class, e -> new RuntimeException("User already exists"));
+                .map(this::toDomain)
+                .as(tx::transactional)
+                .onErrorMap(DuplicateKeyException.class, e -> new RuntimeException("User already exists"));
     }
 
     private PersonEntity toData(Person u) {

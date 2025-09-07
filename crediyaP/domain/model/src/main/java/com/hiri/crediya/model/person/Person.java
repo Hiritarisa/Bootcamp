@@ -1,7 +1,9 @@
 package com.hiri.crediya.model.person;
+
 import lombok.*;
 
 import java.math.BigDecimal;
+import java.math.BigInteger;
 import java.time.LocalDate;
 import java.util.UUID;
 
@@ -20,5 +22,5 @@ public class Person {
     private String phone;
     private String email;
     private BigDecimal baseSalary;
-    private Integer role;
+    private BigInteger role;
 }

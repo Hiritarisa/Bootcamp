@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.hiri.crediya.ArchitectureTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-09-02T01:46:03.143Z" hostname="MacBook-Pro-de-Nico.local" time="0.159">
+<testsuite name="com.hiri.crediya.ArchitectureTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-09-07T21:18:07.702Z" hostname="MacBook-Pro-de-Nico.local" time="0.093">
   <properties/>
   <testcase name="domainClassesShouldNotBeNamedWithToolNames()" classname="com.hiri.crediya.ArchitectureTest" time="0.023"/>
-  <testcase name="domainClassesShouldNotHaveFieldsNamedWithToolNames()" classname="com.hiri.crediya.ArchitectureTest" time="0.007"/>
-  <testcase name="useCaseFinalFields()" classname="com.hiri.crediya.ArchitectureTest" time="0.002"/>
-  <testcase name="beansShouldOnlyHaveFinalFields()" classname="com.hiri.crediya.ArchitectureTest" time="0.006"/>
-  <testcase name="reactiveFlowsShouldUseAwsAsyncClients()" classname="com.hiri.crediya.ArchitectureTest" time="0.047"/>
-  <testcase name="domainClassesShouldNotBeNamedWithTechSuffixes()" classname="com.hiri.crediya.ArchitectureTest" time="0.003"/>
-  <system-out><![CDATA[20:46:01.779 [Test worker] INFO com.tngtech.archunit.core.PluginLoader -- Detected Java version 21.0.8
+  <testcase name="domainClassesShouldNotHaveFieldsNamedWithToolNames()" classname="com.hiri.crediya.ArchitectureTest" time="0.008"/>
+  <testcase name="useCaseFinalFields()" classname="com.hiri.crediya.ArchitectureTest" time="0.001"/>
+  <testcase name="beansShouldOnlyHaveFinalFields()" classname="com.hiri.crediya.ArchitectureTest" time="0.005"/>
+  <testcase name="reactiveFlowsShouldUseAwsAsyncClients()" classname="com.hiri.crediya.ArchitectureTest" time="0.015"/>
+  <testcase name="domainClassesShouldNotBeNamedWithTechSuffixes()" classname="com.hiri.crediya.ArchitectureTest" time="0.001"/>
+  <system-out><![CDATA[16:18:06.479 [Test worker] INFO com.tngtech.archunit.core.PluginLoader -- Detected Java version 21.0.8
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
