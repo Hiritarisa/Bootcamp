@@ -19,7 +19,7 @@ public class RouterConfig {
             @RouterOperation(path = "/api/v1/usuarios", beanClass = PersonHandler.class, beanMethod = "create"),
             @RouterOperation(path = "/api/v1/usuarios/{document}", beanClass = PersonHandler.class, beanMethod = "getPerson"),
             @RouterOperation(path = "/api/v1/usuarios", beanClass = PersonHandler.class, beanMethod = "getAllPersons"),
-            @RouterOperation(path = "/api/v1/usuarios{id}", beanClass = PersonHandler.class, beanMethod = "delete"),
+            @RouterOperation(path = "/api/v1/usuarios/{id}", beanClass = PersonHandler.class, beanMethod = "delete"),
             @RouterOperation(path = "/api/v1/usuarios", beanClass = PersonHandler.class, beanMethod = "update")
     })
     public RouterFunction<ServerResponse> routes(PersonHandler handler) {
