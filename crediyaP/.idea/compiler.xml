@@ -7,6 +7,7 @@
         <processorPath useClasspath="false">
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.38/57f8f5e02e92a30fd21b80cbd426a4172b5f8e29/lombok-1.18.38.jar" />
         </processorPath>
+        <module name="crediya.http-client.main" />
         <module name="crediya.app-service.test" />
         <module name="crediya.r2dbc-postgresql.test" />
         <module name="crediya.app-service.main" />
@@ -16,6 +17,7 @@
         <module name="crediya.model.main" />
         <module name="crediya.r2dbc-postgresql.main" />
         <module name="crediya.reactive-web.main" />
+        <module name="crediya.http-client.test" />
         <module name="crediya.reactive-web.test" />
       </profile>
     </annotationProcessing>

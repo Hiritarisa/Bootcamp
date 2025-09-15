@@ -40,3 +40,8 @@ management:
 
 cors:
   allowed-origins: "http://localhost:4200,http://localhost:8240,http://localhost:8241"
+
+# CONFIGURACIÓN DE AUTENTICACIÓN
+auth:
+  service:
+    url: http://localhost:8242  # URL del microservicio Authenticator

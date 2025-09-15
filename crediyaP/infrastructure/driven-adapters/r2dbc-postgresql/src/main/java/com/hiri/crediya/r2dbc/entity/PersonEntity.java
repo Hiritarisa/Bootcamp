@@ -21,6 +21,7 @@ public class PersonEntity {
     private String names;
     private String lastnames;
     private String document;
+    private String password;
     private LocalDate birthdate;
     private String address;
     private String phone;

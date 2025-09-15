@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>UseCasesConfig.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">app-service</a> &gt; <a href="index.source.html" class="el_package">com.hiri.crediya.config</a> &gt; <span class="el_source">UseCasesConfig.java</span></div><h1>UseCasesConfig.java</h1><pre class="source lang-java linenums">package com.hiri.crediya.config;
 
+import com.hiri.crediya.model.auth.gateways.AuthRepository;
 import com.hiri.crediya.model.person.gateways.PersonRepository;
+import com.hiri.crediya.usecase.auth.AuthUseCase;
 import com.hiri.crediya.usecase.personregistry.PersonUseCase;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-<span class="nc" id="L9">public class UseCasesConfig {</span>
+<span class="nc" id="L11">public class UseCasesConfig {</span>
 
     @Bean
     public PersonUseCase personUseCase(PersonRepository repository) {
-<span class="nc" id="L13">        return new PersonUseCase(repository);</span>
+<span class="nc" id="L15">        return new PersonUseCase(repository);</span>
+    }
+    
+    @Bean
+    public AuthUseCase authUseCase(AuthRepository authRepository) {
+<span class="nc" id="L20">        return new AuthUseCase(authRepository);</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.13.202504020838</span></div></body></html>

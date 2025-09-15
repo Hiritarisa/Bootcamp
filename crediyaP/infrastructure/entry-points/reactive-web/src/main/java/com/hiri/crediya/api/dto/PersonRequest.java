@@ -16,6 +16,7 @@ public class PersonRequest {
     private UUID id;
     @NotBlank private String names;
     @NotBlank private String lastnames;
+    @NotNull @NotBlank private String password;
     @NotBlank private String document;
     @NotNull private LocalDate birthdate;
     @NotNull private String address;

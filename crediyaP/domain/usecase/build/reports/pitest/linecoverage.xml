@@ -1,3 +1,233 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <coverage>
+<block classname='com.hiri.crediya.usecase.auth.AuthUseCaseTest' method='shouldValidateAdminRoleSuccessfully()V' number='6'><tests>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldValidateAdminRoleSuccessfully()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.model.auth.gateways.AuthRepository$MockitoMock$32b7SDod' method='validateAdminAdvisorRole(Ljava/lang/String;)Lreactor/core/publisher/Mono;' number='1'><tests>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldReturnFalseWhenRoleValidationFails()]'/>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldValidateAdminRoleSuccessfully()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.usecase.auth.AuthUseCaseTest' method='shouldValidateAdminRoleSuccessfully()V' number='5'><tests>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldValidateAdminRoleSuccessfully()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.model.auth.gateways.AuthRepository$MockitoMock$32b7SDod' method='validateAdminAdvisorRole(Ljava/lang/String;)Lreactor/core/publisher/Mono;' number='0'><tests>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldReturnFalseWhenRoleValidationFails()]'/>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldValidateAdminRoleSuccessfully()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.usecase.auth.AuthUseCaseTest' method='shouldValidateAdminRoleSuccessfully()V' number='4'><tests>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldValidateAdminRoleSuccessfully()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.usecase.auth.AuthUseCaseTest' method='shouldValidateAdminRoleSuccessfully()V' number='3'><tests>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldValidateAdminRoleSuccessfully()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.usecase.auth.AuthUseCaseTest' method='shouldValidateAdminRoleSuccessfully()V' number='2'><tests>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldValidateAdminRoleSuccessfully()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.usecase.auth.AuthUseCaseTest' method='shouldValidateAdminRoleSuccessfully()V' number='1'><tests>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldValidateAdminRoleSuccessfully()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.model.auth.gateways.AuthRepository$MockitoMock$32b7SDod' method='setMockitoInterceptor(Lorg/mockito/internal/creation/bytebuddy/access/MockMethodInterceptor;)V' number='0'><tests>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldReturnFalseWhenRoleValidationFails()]'/>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldValidateAdminRoleSuccessfully()]'/>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldValidateClientRoleSuccessfully()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.usecase.auth.AuthUseCaseTest' method='shouldValidateAdminRoleSuccessfully()V' number='0'><tests>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldValidateAdminRoleSuccessfully()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.usecase.auth.AuthUseCase' method='&lt;init&gt;(Lcom/hiri/crediya/model/auth/gateways/AuthRepository;)V' number='1'><tests>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldReturnFalseWhenRoleValidationFails()]'/>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldValidateAdminRoleSuccessfully()]'/>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldValidateClientRoleSuccessfully()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.usecase.auth.AuthUseCase' method='isAdminOrAdvisor(Ljava/lang/String;)Lreactor/core/publisher/Mono;' number='0'><tests>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldReturnFalseWhenRoleValidationFails()]'/>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldValidateAdminRoleSuccessfully()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.usecase.auth.AuthUseCase' method='isAdminOrAdvisor(Ljava/lang/String;)Lreactor/core/publisher/Mono;' number='1'><tests>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldReturnFalseWhenRoleValidationFails()]'/>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldValidateAdminRoleSuccessfully()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.usecase.auth.AuthUseCase' method='&lt;init&gt;(Lcom/hiri/crediya/model/auth/gateways/AuthRepository;)V' number='0'><tests>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldReturnFalseWhenRoleValidationFails()]'/>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldValidateAdminRoleSuccessfully()]'/>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldValidateClientRoleSuccessfully()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.usecase.auth.AuthUseCaseTest' method='shouldValidateAdminRoleSuccessfully()V' number='10'><tests>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldValidateAdminRoleSuccessfully()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.usecase.auth.AuthUseCaseTest' method='shouldValidateAdminRoleSuccessfully()V' number='9'><tests>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldValidateAdminRoleSuccessfully()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.usecase.auth.AuthUseCaseTest' method='shouldValidateAdminRoleSuccessfully()V' number='8'><tests>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldValidateAdminRoleSuccessfully()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.usecase.auth.AuthUseCaseTest' method='shouldValidateAdminRoleSuccessfully()V' number='7'><tests>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldValidateAdminRoleSuccessfully()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.model.auth.gateways.AuthRepository$MockitoMock$32b7SDod' method='&lt;clinit&gt;()V' number='0'><tests>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldValidateAdminRoleSuccessfully()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.model.auth.gateways.AuthRepository$MockitoMock$32b7SDod' method='&lt;clinit&gt;()V' number='1'><tests>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldValidateAdminRoleSuccessfully()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.model.auth.gateways.AuthRepository$MockitoMock$32b7SDod' method='&lt;clinit&gt;()V' number='2'><tests>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldValidateAdminRoleSuccessfully()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.model.auth.gateways.AuthRepository$MockitoMock$32b7SDod' method='&lt;clinit&gt;()V' number='3'><tests>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldValidateAdminRoleSuccessfully()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.model.auth.gateways.AuthRepository$MockitoMock$32b7SDod' method='&lt;clinit&gt;()V' number='4'><tests>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldValidateAdminRoleSuccessfully()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.model.auth.gateways.AuthRepository$MockitoMock$32b7SDod' method='&lt;init&gt;()V' number='1'><tests>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldReturnFalseWhenRoleValidationFails()]'/>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldValidateAdminRoleSuccessfully()]'/>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldValidateClientRoleSuccessfully()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.usecase.auth.AuthUseCaseTest' method='&lt;init&gt;()V' number='0'><tests>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldReturnFalseWhenRoleValidationFails()]'/>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldValidateAdminRoleSuccessfully()]'/>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldValidateClientRoleSuccessfully()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.usecase.auth.AuthUseCaseTest' method='&lt;init&gt;()V' number='1'><tests>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldReturnFalseWhenRoleValidationFails()]'/>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldValidateAdminRoleSuccessfully()]'/>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldValidateClientRoleSuccessfully()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.model.auth.gateways.AuthRepository$MockitoMock$32b7SDod' method='&lt;init&gt;()V' number='0'><tests>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldReturnFalseWhenRoleValidationFails()]'/>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldValidateAdminRoleSuccessfully()]'/>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldValidateClientRoleSuccessfully()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.usecase.auth.AuthUseCaseTest' method='shouldValidateClientRoleSuccessfully()V' number='3'><tests>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldValidateClientRoleSuccessfully()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.usecase.auth.AuthUseCaseTest' method='shouldValidateClientRoleSuccessfully()V' number='4'><tests>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldValidateClientRoleSuccessfully()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.usecase.auth.AuthUseCaseTest' method='shouldValidateClientRoleSuccessfully()V' number='1'><tests>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldValidateClientRoleSuccessfully()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.usecase.auth.AuthUseCaseTest' method='shouldValidateClientRoleSuccessfully()V' number='2'><tests>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldValidateClientRoleSuccessfully()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.usecase.auth.AuthUseCaseTest' method='shouldValidateClientRoleSuccessfully()V' number='7'><tests>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldValidateClientRoleSuccessfully()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.usecase.auth.AuthUseCaseTest' method='shouldValidateClientRoleSuccessfully()V' number='8'><tests>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldValidateClientRoleSuccessfully()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.usecase.auth.AuthUseCaseTest' method='shouldValidateClientRoleSuccessfully()V' number='5'><tests>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldValidateClientRoleSuccessfully()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.usecase.auth.AuthUseCaseTest' method='shouldValidateClientRoleSuccessfully()V' number='6'><tests>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldValidateClientRoleSuccessfully()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.usecase.auth.AuthUseCase' method='isClient(Ljava/lang/String;)Lreactor/core/publisher/Mono;' number='1'><tests>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldValidateClientRoleSuccessfully()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.usecase.auth.AuthUseCaseTest' method='shouldValidateClientRoleSuccessfully()V' number='0'><tests>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldValidateClientRoleSuccessfully()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.usecase.auth.AuthUseCase' method='isClient(Ljava/lang/String;)Lreactor/core/publisher/Mono;' number='0'><tests>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldValidateClientRoleSuccessfully()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.usecase.auth.AuthUseCaseTest' method='shouldValidateClientRoleSuccessfully()V' number='9'><tests>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldValidateClientRoleSuccessfully()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.usecase.auth.AuthUseCaseTest' method='shouldValidateClientRoleSuccessfully()V' number='10'><tests>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldValidateClientRoleSuccessfully()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.model.auth.gateways.AuthRepository$MockitoMock$32b7SDod' method='validateClientRole(Ljava/lang/String;)Lreactor/core/publisher/Mono;' number='1'><tests>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldValidateClientRoleSuccessfully()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.model.auth.gateways.AuthRepository$MockitoMock$32b7SDod' method='validateClientRole(Ljava/lang/String;)Lreactor/core/publisher/Mono;' number='0'><tests>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldValidateClientRoleSuccessfully()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.usecase.auth.AuthUseCaseTest' method='shouldReturnFalseWhenRoleValidationFails()V' number='7'><tests>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldReturnFalseWhenRoleValidationFails()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.usecase.auth.AuthUseCaseTest' method='shouldReturnFalseWhenRoleValidationFails()V' number='6'><tests>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldReturnFalseWhenRoleValidationFails()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.usecase.auth.AuthUseCaseTest' method='shouldReturnFalseWhenRoleValidationFails()V' number='9'><tests>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldReturnFalseWhenRoleValidationFails()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.usecase.auth.AuthUseCaseTest' method='shouldReturnFalseWhenRoleValidationFails()V' number='8'><tests>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldReturnFalseWhenRoleValidationFails()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.usecase.auth.AuthUseCaseTest' method='shouldReturnFalseWhenRoleValidationFails()V' number='10'><tests>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldReturnFalseWhenRoleValidationFails()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.usecase.auth.AuthUseCaseTest' method='shouldReturnFalseWhenRoleValidationFails()V' number='1'><tests>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldReturnFalseWhenRoleValidationFails()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.usecase.auth.AuthUseCaseTest' method='shouldReturnFalseWhenRoleValidationFails()V' number='0'><tests>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldReturnFalseWhenRoleValidationFails()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.usecase.auth.AuthUseCaseTest' method='shouldReturnFalseWhenRoleValidationFails()V' number='3'><tests>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldReturnFalseWhenRoleValidationFails()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.usecase.auth.AuthUseCaseTest' method='shouldReturnFalseWhenRoleValidationFails()V' number='2'><tests>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldReturnFalseWhenRoleValidationFails()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.usecase.auth.AuthUseCaseTest' method='shouldReturnFalseWhenRoleValidationFails()V' number='5'><tests>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldReturnFalseWhenRoleValidationFails()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.usecase.auth.AuthUseCaseTest' method='shouldReturnFalseWhenRoleValidationFails()V' number='4'><tests>
+<test name='com.hiri.crediya.usecase.auth.AuthUseCaseTest.[engine:junit-jupiter]/[class:com.hiri.crediya.usecase.auth.AuthUseCaseTest]/[method:shouldReturnFalseWhenRoleValidationFails()]'/>
+</tests>
+</block>
 </coverage>

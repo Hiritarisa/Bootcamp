@@ -470,8 +470,6 @@
 </tests>
 </block>
 <block classname='com.hiri.crediya.ArchitectureTest' method='checkWithWarning(Ljava/lang/Runnable;)V' number='1'><tests>
-<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
 <test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
 <test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
 <test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
@@ -597,8 +595,524 @@
 <test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:useCaseFinalFields()]'/>
 </tests>
 </block>
+<block classname='com.hiri.crediya.Utils$Issue$Type' method='&lt;clinit&gt;()V' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$Issue$Type' method='&lt;clinit&gt;()V' number='2'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$Issue$Type' method='&lt;clinit&gt;()V' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$Issue$Type' method='&lt;clinit&gt;()V' number='4'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$Issue$Type' method='&lt;clinit&gt;()V' number='3'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='resolveFinalLocation(Lcom/hiri/crediya/Utils$JavaFile;Lcom/hiri/crediya/Utils$ArchitectureRule$Location;)I' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='resolveFinalLocation(Lcom/hiri/crediya/Utils$JavaFile;Lcom/hiri/crediya/Utils$ArchitectureRule$Location;)I' number='2'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='resolveFinalLocation(Lcom/hiri/crediya/Utils$JavaFile;Lcom/hiri/crediya/Utils$ArchitectureRule$Location;)I' number='3'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='resolveFinalLocation(Lcom/hiri/crediya/Utils$JavaFile;Lcom/hiri/crediya/Utils$ArchitectureRule$Location;)I' number='4'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='resolveFinalLocation(Lcom/hiri/crediya/Utils$JavaFile;Lcom/hiri/crediya/Utils$ArchitectureRule$Location;)I' number='5'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='resolveFinalLocation(Lcom/hiri/crediya/Utils$JavaFile;Lcom/hiri/crediya/Utils$ArchitectureRule$Location;)I' number='6'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='resolveFinalLocation(Lcom/hiri/crediya/Utils$JavaFile;Lcom/hiri/crediya/Utils$ArchitectureRule$Location;)I' number='7'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='resolveFinalLocation(Lcom/hiri/crediya/Utils$JavaFile;Lcom/hiri/crediya/Utils$ArchitectureRule$Location;)I' number='8'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='resolveFinalLocation(Lcom/hiri/crediya/Utils$JavaFile;Lcom/hiri/crediya/Utils$ArchitectureRule$Location;)I' number='9'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='resolveFinalLocation(Lcom/hiri/crediya/Utils$JavaFile;Lcom/hiri/crediya/Utils$ArchitectureRule$Location;)I' number='10'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='resolveFinalLocation(Lcom/hiri/crediya/Utils$JavaFile;Lcom/hiri/crediya/Utils$ArchitectureRule$Location;)I' number='11'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='resolveFinalLocation(Lcom/hiri/crediya/Utils$JavaFile;Lcom/hiri/crediya/Utils$ArchitectureRule$Location;)I' number='12'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='resolveFinalLocation(Lcom/hiri/crediya/Utils$JavaFile;Lcom/hiri/crediya/Utils$ArchitectureRule$Location;)I' number='13'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='extractRuleDescription(Ljava/lang/String;)Ljava/lang/String;' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='extractRuleDescription(Ljava/lang/String;)Ljava/lang/String;' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='extractRuleDescription(Ljava/lang/String;)Ljava/lang/String;' number='2'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='extractRuleDescription(Ljava/lang/String;)Ljava/lang/String;' number='3'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='extractRuleDescription(Ljava/lang/String;)Ljava/lang/String;' number='4'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$JavaFile' method='getModulePath()Ljava/lang/String;' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='lambda$checkWithWarning$18(Ljava/lang/String;)Lcom/hiri/crediya/Utils$IssuesReport;' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='lambda$checkWithWarning$18(Ljava/lang/String;)Lcom/hiri/crediya/Utils$IssuesReport;' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$Issue' method='&lt;init&gt;(Ljava/lang/String;Lcom/hiri/crediya/Utils$Issue$Severity;Lcom/hiri/crediya/Utils$Issue$Type;Lcom/hiri/crediya/Utils$Issue$Location;I)V' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$ArchitectureRule$Location' method='&lt;init&gt;(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$ArchitectureRule$Location' method='&lt;init&gt;(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$Issue' method='&lt;init&gt;(Ljava/lang/String;Lcom/hiri/crediya/Utils$Issue$Severity;Lcom/hiri/crediya/Utils$Issue$Type;Lcom/hiri/crediya/Utils$Issue$Location;I)V' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$ArchitectureRule' method='getLocations()Ljava/util/List;' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$JavaFile' method='getPath()Ljava/lang/String;' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='lambda$checkWithWarning$19(Lcom/hiri/crediya/Utils$ArchitectureRule;Lcom/hiri/crediya/Utils$ArchitectureRule$Location;)V' number='5'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$Issue$TextRange' method='from(I)Lcom/hiri/crediya/Utils$Issue$TextRange;' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='lambda$checkWithWarning$19(Lcom/hiri/crediya/Utils$ArchitectureRule;Lcom/hiri/crediya/Utils$ArchitectureRule$Location;)V' number='6'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='lambda$checkWithWarning$19(Lcom/hiri/crediya/Utils$ArchitectureRule;Lcom/hiri/crediya/Utils$ArchitectureRule$Location;)V' number='7'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='lambda$checkWithWarning$19(Lcom/hiri/crediya/Utils$ArchitectureRule;Lcom/hiri/crediya/Utils$ArchitectureRule$Location;)V' number='8'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$Issue$TextRange' method='from(I)Lcom/hiri/crediya/Utils$Issue$TextRange;' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='lambda$checkWithWarning$19(Lcom/hiri/crediya/Utils$ArchitectureRule;Lcom/hiri/crediya/Utils$ArchitectureRule$Location;)V' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='lambda$checkWithWarning$19(Lcom/hiri/crediya/Utils$ArchitectureRule;Lcom/hiri/crediya/Utils$ArchitectureRule$Location;)V' number='2'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='lambda$checkWithWarning$19(Lcom/hiri/crediya/Utils$ArchitectureRule;Lcom/hiri/crediya/Utils$ArchitectureRule$Location;)V' number='3'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='lambda$checkWithWarning$19(Lcom/hiri/crediya/Utils$ArchitectureRule;Lcom/hiri/crediya/Utils$ArchitectureRule$Location;)V' number='4'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='lambda$checkWithWarning$19(Lcom/hiri/crediya/Utils$ArchitectureRule;Lcom/hiri/crediya/Utils$ArchitectureRule$Location;)V' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='resolveFinalLocation(Lcom/hiri/crediya/Utils$JavaFile;Lcom/hiri/crediya/Utils$ArchitectureRule$Location;)I' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='checkWithWarning(Ljava/lang/Runnable;)V' number='2'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='checkWithWarning(Ljava/lang/Runnable;)V' number='3'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='checkWithWarning(Ljava/lang/Runnable;)V' number='4'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='lambda$checkWithWarning$19(Lcom/hiri/crediya/Utils$ArchitectureRule;Lcom/hiri/crediya/Utils$ArchitectureRule$Location;)V' number='13'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='parseToRule(Ljava/lang/String;)Lcom/hiri/crediya/Utils$ArchitectureRule;' number='11'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='lambda$checkWithWarning$19(Lcom/hiri/crediya/Utils$ArchitectureRule;Lcom/hiri/crediya/Utils$ArchitectureRule$Location;)V' number='14'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='parseToRule(Ljava/lang/String;)Lcom/hiri/crediya/Utils$ArchitectureRule;' number='12'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='parseToRule(Ljava/lang/String;)Lcom/hiri/crediya/Utils$ArchitectureRule;' number='9'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='parseToRule(Ljava/lang/String;)Lcom/hiri/crediya/Utils$ArchitectureRule;' number='10'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$ArchitectureRule' method='getRuleId()Ljava/lang/String;' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='checkWithWarning(Ljava/lang/Runnable;)V' number='5'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='lambda$checkWithWarning$19(Lcom/hiri/crediya/Utils$ArchitectureRule;Lcom/hiri/crediya/Utils$ArchitectureRule$Location;)V' number='9'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='parseToRule(Ljava/lang/String;)Lcom/hiri/crediya/Utils$ArchitectureRule;' number='15'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='checkWithWarning(Ljava/lang/Runnable;)V' number='6'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='lambda$checkWithWarning$19(Lcom/hiri/crediya/Utils$ArchitectureRule;Lcom/hiri/crediya/Utils$ArchitectureRule$Location;)V' number='10'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='lambda$checkWithWarning$19(Lcom/hiri/crediya/Utils$ArchitectureRule;Lcom/hiri/crediya/Utils$ArchitectureRule$Location;)V' number='11'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='parseToRule(Ljava/lang/String;)Lcom/hiri/crediya/Utils$ArchitectureRule;' number='13'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='lambda$checkWithWarning$19(Lcom/hiri/crediya/Utils$ArchitectureRule;Lcom/hiri/crediya/Utils$ArchitectureRule$Location;)V' number='12'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='parseToRule(Ljava/lang/String;)Lcom/hiri/crediya/Utils$ArchitectureRule;' number='14'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='parseToRule(Ljava/lang/String;)Lcom/hiri/crediya/Utils$ArchitectureRule;' number='3'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='extractRuleId(Ljava/lang/String;)Ljava/lang/String;' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='parseToRule(Ljava/lang/String;)Lcom/hiri/crediya/Utils$ArchitectureRule;' number='4'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='parseToRule(Ljava/lang/String;)Lcom/hiri/crediya/Utils$ArchitectureRule;' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='extractRuleId(Ljava/lang/String;)Ljava/lang/String;' number='2'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='parseToRule(Ljava/lang/String;)Lcom/hiri/crediya/Utils$ArchitectureRule;' number='2'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='extractRuleId(Ljava/lang/String;)Ljava/lang/String;' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='parseToRule(Ljava/lang/String;)Lcom/hiri/crediya/Utils$ArchitectureRule;' number='7'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='parseToRule(Ljava/lang/String;)Lcom/hiri/crediya/Utils$ArchitectureRule;' number='8'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='parseToRule(Ljava/lang/String;)Lcom/hiri/crediya/Utils$ArchitectureRule;' number='5'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$ArchitectureRule$Location' method='getLocationIdx()Ljava/lang/String;' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='parseToRule(Ljava/lang/String;)Lcom/hiri/crediya/Utils$ArchitectureRule;' number='6'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='parseToRule(Ljava/lang/String;)Lcom/hiri/crediya/Utils$ArchitectureRule;' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$ArchitectureRule' method='&lt;init&gt;(Ljava/lang/String;Ljava/lang/String;)V' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$ArchitectureRule' method='&lt;init&gt;(Ljava/lang/String;Ljava/lang/String;)V' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$ArchitectureRule' method='&lt;init&gt;(Ljava/lang/String;Ljava/lang/String;)V' number='2'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.ArchitectureTest' method='lambda$beansShouldOnlyHaveFinalFields$11(Lcom/tngtech/archunit/lang/ArchRule;)V' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='extractRuleId(Ljava/lang/String;)Ljava/lang/String;' number='3'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$ArchitectureRule$Location' method='getClassName()Ljava/lang/String;' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='resolveLocation(Ljava/lang/String;)I' number='4'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='resolveLocation(Ljava/lang/String;)I' number='3'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='resolveLocation(Ljava/lang/String;)I' number='5'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='resolveLocation(Ljava/lang/String;)I' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='resolveLocation(Ljava/lang/String;)I' number='2'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='resolveLocation(Ljava/lang/String;)I' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='resolveLocationIdx(Ljava/lang/String;)Ljava/lang/String;' number='6'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='resolveLocationIdx(Ljava/lang/String;)Ljava/lang/String;' number='5'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='resolveLocationIdx(Ljava/lang/String;)Ljava/lang/String;' number='4'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='resolveLocationIdx(Ljava/lang/String;)Ljava/lang/String;' number='3'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='resolveLocationIdx(Ljava/lang/String;)Ljava/lang/String;' number='2'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='resolveLocationIdx(Ljava/lang/String;)Ljava/lang/String;' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$Issue$Location' method='&lt;init&gt;(Ljava/lang/String;Ljava/lang/String;Lcom/hiri/crediya/Utils$Issue$TextRange;)V' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='resolveLocationIdx(Ljava/lang/String;)Ljava/lang/String;' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$Issue$Location' method='&lt;init&gt;(Ljava/lang/String;Ljava/lang/String;Lcom/hiri/crediya/Utils$Issue$TextRange;)V' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='resolveLocationIdx(Ljava/lang/String;)Ljava/lang/String;' number='8'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='resolveLocationIdx(Ljava/lang/String;)Ljava/lang/String;' number='7'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='resolveClassName(Ljava/lang/String;)Ljava/lang/String;' number='7'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='resolveClassName(Ljava/lang/String;)Ljava/lang/String;' number='6'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='resolveClassName(Ljava/lang/String;)Ljava/lang/String;' number='9'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='resolveClassName(Ljava/lang/String;)Ljava/lang/String;' number='8'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='resolveClassName(Ljava/lang/String;)Ljava/lang/String;' number='11'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='resolveClassName(Ljava/lang/String;)Ljava/lang/String;' number='10'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
 <block classname='com.hiri.crediya.ArchitectureTest' method='beansShouldOnlyHaveFinalFields()V' number='8'><tests>
 <test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$IssuesReport' method='&lt;init&gt;()V' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
 </tests>
 </block>
 <block classname='com.hiri.crediya.ArchitectureTest' method='beansShouldOnlyHaveFinalFields()V' number='9'><tests>
@@ -609,8 +1123,18 @@
 <test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
 </tests>
 </block>
+<block classname='com.hiri.crediya.Utils$IssuesReport' method='&lt;init&gt;()V' number='2'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
 <block classname='com.hiri.crediya.ArchitectureTest' method='beansShouldOnlyHaveFinalFields()V' number='11'><tests>
 <test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$IssuesReport' method='&lt;init&gt;()V' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
 </tests>
 </block>
 <block classname='com.hiri.crediya.ArchitectureTest' method='beansShouldOnlyHaveFinalFields()V' number='12'><tests>
@@ -633,19 +1157,135 @@
 <test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
 </tests>
 </block>
+<block classname='com.hiri.crediya.Utils$IssuesReport' method='add(Lcom/hiri/crediya/Utils$Issue;)V' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
 <block classname='com.hiri.crediya.ArchitectureTest' method='beansShouldOnlyHaveFinalFields()V' number='17'><tests>
 <test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$IssuesReport' method='add(Lcom/hiri/crediya/Utils$Issue;)V' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
 </tests>
 </block>
 <block classname='com.hiri.crediya.ArchitectureTest' method='beansShouldOnlyHaveFinalFields()V' number='18'><tests>
 <test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
 </tests>
 </block>
-<block classname='com.hiri.crediya.ArchitectureTest' method='lambda$beansShouldOnlyHaveFinalFields$11(Lcom/tngtech/archunit/lang/ArchRule;)V' number='1'><tests>
+<block classname='com.hiri.crediya.Utils$Issue' method='from(Ljava/lang/String;Lcom/hiri/crediya/Utils$Issue$Severity;Lcom/hiri/crediya/Utils$Issue$Type;Lcom/hiri/crediya/Utils$Issue$Location;I)Lcom/hiri/crediya/Utils$Issue;' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='resolveClassName(Ljava/lang/String;)Ljava/lang/String;' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$ArchitectureRule' method='with(Lcom/hiri/crediya/Utils$ArchitectureRule$Location;)Lcom/hiri/crediya/Utils$ArchitectureRule;' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='resolveClassName(Ljava/lang/String;)Ljava/lang/String;' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$ArchitectureRule' method='with(Lcom/hiri/crediya/Utils$ArchitectureRule$Location;)Lcom/hiri/crediya/Utils$ArchitectureRule;' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$Issue' method='from(Ljava/lang/String;Lcom/hiri/crediya/Utils$Issue$Severity;Lcom/hiri/crediya/Utils$Issue$Type;Lcom/hiri/crediya/Utils$Issue$Location;I)Lcom/hiri/crediya/Utils$Issue;' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$Issue$Type' method='&lt;init&gt;(Ljava/lang/String;I)V' number='1'><tests>
 <test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
 </tests>
 </block>
-<block classname='com.hiri.crediya.ArchitectureTest' method='lambda$beansShouldOnlyHaveFinalFields$11(Lcom/tngtech/archunit/lang/ArchRule;)V' number='0'><tests>
+<block classname='com.hiri.crediya.Utils$ArchitectureRule$Location' method='from(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)Lcom/hiri/crediya/Utils$ArchitectureRule$Location;' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$ArchitectureRule$Location' method='from(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)Lcom/hiri/crediya/Utils$ArchitectureRule$Location;' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$Issue$Type' method='&lt;init&gt;(Ljava/lang/String;I)V' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$Issue$Severity' method='&lt;init&gt;(Ljava/lang/String;I)V' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$Issue$Severity' method='&lt;init&gt;(Ljava/lang/String;I)V' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$Issue$Location' method='from(Ljava/lang/String;Ljava/lang/String;Lcom/hiri/crediya/Utils$Issue$TextRange;)Lcom/hiri/crediya/Utils$Issue$Location;' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$Issue$Location' method='from(Ljava/lang/String;Ljava/lang/String;Lcom/hiri/crediya/Utils$Issue$TextRange;)Lcom/hiri/crediya/Utils$Issue$Location;' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$ArchitectureRule$Location' method='getDescription()Ljava/lang/String;' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$Issue$Severity' method='&lt;clinit&gt;()V' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$ArchitectureRule' method='getDescription()Ljava/lang/String;' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$Issue$Severity' method='&lt;clinit&gt;()V' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$ArchitectureRule' method='from(Ljava/lang/String;Ljava/lang/String;)Lcom/hiri/crediya/Utils$ArchitectureRule;' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$ArchitectureRule' method='from(Ljava/lang/String;Ljava/lang/String;)Lcom/hiri/crediya/Utils$ArchitectureRule;' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$Issue$Severity' method='&lt;clinit&gt;()V' number='4'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$Issue$Severity' method='&lt;clinit&gt;()V' number='5'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$Issue$Severity' method='&lt;clinit&gt;()V' number='2'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$Issue$Severity' method='&lt;clinit&gt;()V' number='3'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$Issue$Severity' method='&lt;clinit&gt;()V' number='6'><tests>
 <test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
 </tests>
 </block>
@@ -669,6 +1309,11 @@
 <test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
 </tests>
 </block>
+<block classname='com.hiri.crediya.Utils$Issue$TextRange' method='&lt;init&gt;(I)V' number='0'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
 <block classname='com.hiri.crediya.ArchitectureTest' method='beansShouldOnlyHaveFinalFields()V' number='5'><tests>
 <test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
 </tests>
@@ -679,6 +1324,11 @@
 </block>
 <block classname='com.hiri.crediya.ArchitectureTest' method='beansShouldOnlyHaveFinalFields()V' number='7'><tests>
 <test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils$Issue$TextRange' method='&lt;init&gt;(I)V' number='1'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
 </tests>
 </block>
 <block classname='com.hiri.crediya.ArchitectureTest' method='lambda$areUsingAnAwsClient$13(Lcom/tngtech/archunit/core/domain/JavaClass;)Z' number='3'><tests>
@@ -833,6 +1483,22 @@
 <test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
 </tests>
 </block>
+<block classname='com.hiri.crediya.Utils' method='resolveClassName(Ljava/lang/String;)Ljava/lang/String;' number='5'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='resolveClassName(Ljava/lang/String;)Ljava/lang/String;' number='4'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='resolveClassName(Ljava/lang/String;)Ljava/lang/String;' number='3'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='com.hiri.crediya.Utils' method='resolveClassName(Ljava/lang/String;)Ljava/lang/String;' number='2'><tests>
+<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
 <block classname='com.hiri.crediya.ArchitectureTest' method='domainClassesShouldNotBeNamedWithTechSuffixes()V' number='0'><tests>
 <test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
 </tests>
@@ -878,10 +1544,6 @@
 </tests>
 </block>
 <block classname='com.hiri.crediya.ArchitectureTest' method='lambda$domainClassesShouldNotBeNamedWithTechSuffixes$2(Lcom/tngtech/archunit/lang/syntax/elements/ClassesShouldConjunction;Ljava/lang/String;)Lcom/tngtech/archunit/lang/syntax/elements/ClassesShouldConjunction;' number='0'><tests>
-<test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='com.hiri.crediya.ArchitectureTest' method='lambda$domainClassesShouldNotBeNamedWithTechSuffixes$4(Lcom/tngtech/archunit/lang/ArchRule;)V' number='1'><tests>
 <test name='com.hiri.crediya.ArchitectureTest.[engine:junit-jupiter]/[class:com.hiri.crediya.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
 </tests>
 </block>

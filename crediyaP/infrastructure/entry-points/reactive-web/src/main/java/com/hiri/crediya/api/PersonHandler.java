@@ -110,6 +110,7 @@ public class PersonHandler {
         return Person.builder()
                 .names(r.getNames())
                 .lastnames(r.getLastnames())
+                .password(r.getPassword())
                 .document(r.getDocument())
                 .birthdate(r.getBirthdate())
                 .address(r.getAddress())
