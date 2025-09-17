@@ -5,6 +5,12 @@ import com.hiri.crediya.api.dto.PersonRequest;
 import com.hiri.crediya.api.dto.PersonResponse;
 import com.hiri.crediya.model.person.Person;
 import com.hiri.crediya.usecase.personregistry.PersonUseCase;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.media.Content;
+import io.swagger.v3.oas.annotations.media.Schema;
+import io.swagger.v3.oas.annotations.parameters.RequestBody;
+import io.swagger.v3.oas.annotations.responses.ApiResponse;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Validator;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -25,6 +31,7 @@ import static org.springframework.http.HttpStatus.BAD_REQUEST;
 @Slf4j
 @Component
 @RequiredArgsConstructor
+@Tag(name = "Persons")
 public class PersonHandler {
 
     private final PersonUseCase personUseCase;

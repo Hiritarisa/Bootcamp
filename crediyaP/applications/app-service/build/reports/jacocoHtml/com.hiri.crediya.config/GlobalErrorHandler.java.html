@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>GlobalErrorHandler.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">app-service</a> &gt; <a href="index.source.html" class="el_package">com.hiri.crediya.config</a> &gt; <span class="el_source">GlobalErrorHandler.java</span></div><h1>GlobalErrorHandler.java</h1><pre class="source lang-java linenums">package com.hiri.crediya.config;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+import org.springframework.boot.web.reactive.error.ErrorWebExceptionHandler;
+import org.springframework.core.annotation.Order;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
+import org.springframework.stereotype.Component;
+import org.springframework.web.server.ServerWebExchange;
+import reactor.core.publisher.Mono;
+
+import java.nio.charset.StandardCharsets;
+import java.time.Instant;
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+@Component
+@Order(-2)
+public class GlobalErrorHandler implements ErrorWebExceptionHandler {
+
+    private final ObjectMapper mapper;
+
+<span class="nc" id="L23">    public GlobalErrorHandler(ObjectMapper mapper) {</span>
+<span class="nc" id="L24">        this.mapper = mapper;</span>
+<span class="nc" id="L25">    }</span>
+
+    @Override
+    public Mono&lt;Void&gt; handle(ServerWebExchange exchange, Throwable ex) {
+<span class="nc bnc" id="L29" title="All 2 branches missed.">        if (exchange.getResponse().isCommitted()) {</span>
+<span class="nc" id="L30">            return Mono.error(ex);</span>
+        }
+
+        HttpStatus status;
+<span class="nc" id="L34">        Map&lt;String, Object&gt; body = new LinkedHashMap&lt;&gt;();</span>
+
+        // 1) Clasificar excepción y armar payload
+<span class="nc bnc" id="L37" title="All 2 branches missed.">        if (ex instanceof org.springframework.web.bind.support.WebExchangeBindException webEx) {</span>
+<span class="nc" id="L38">            status = HttpStatus.BAD_REQUEST;</span>
+<span class="nc" id="L39">            var errors = webEx.getFieldErrors().stream()</span>
+<span class="nc" id="L40">                    .map(fe -&gt; Map.of(</span>
+<span class="nc" id="L41">                            &quot;field&quot;, fe.getField(),</span>
+<span class="nc" id="L42">                            &quot;message&quot;, fe.getDefaultMessage(),</span>
+<span class="nc" id="L43">                            &quot;rejectedValue&quot;, fe.getRejectedValue()</span>
+                    ))
+<span class="nc" id="L45">                    .toList();</span>
+<span class="nc" id="L46">            body.put(&quot;message&quot;, &quot;Validation failed&quot;);</span>
+<span class="nc" id="L47">            body.put(&quot;errors&quot;, errors);</span>
+<span class="nc bnc" id="L48" title="All 2 branches missed.">        } else if (ex instanceof org.springframework.validation.BindException bindEx) {</span>
+<span class="nc" id="L49">            status = HttpStatus.BAD_REQUEST;</span>
+<span class="nc" id="L50">            var errors = bindEx.getFieldErrors().stream()</span>
+<span class="nc" id="L51">                    .map(fe -&gt; Map.of(</span>
+<span class="nc" id="L52">                            &quot;field&quot;, fe.getField(),</span>
+<span class="nc" id="L53">                            &quot;message&quot;, fe.getDefaultMessage(),</span>
+<span class="nc" id="L54">                            &quot;rejectedValue&quot;, fe.getRejectedValue()</span>
+                    ))
+<span class="nc" id="L56">                    .toList();</span>
+<span class="nc" id="L57">            body.put(&quot;message&quot;, &quot;Validation failed&quot;);</span>
+<span class="nc" id="L58">            body.put(&quot;errors&quot;, errors);</span>
+<span class="nc bnc" id="L59" title="All 2 branches missed.">        } else if (ex instanceof org.springframework.web.server.ResponseStatusException rse) {</span>
+<span class="nc" id="L60">            status = HttpStatus.valueOf(rse.getStatusCode().value());</span>
+<span class="nc bnc" id="L61" title="All 2 branches missed.">            body.put(&quot;message&quot;, rse.getReason() != null ? rse.getReason() : rse.getMessage());</span>
+        } else {
+<span class="nc" id="L63">            status = HttpStatus.INTERNAL_SERVER_ERROR;</span>
+<span class="nc bnc" id="L64" title="All 2 branches missed.">            body.put(&quot;message&quot;, ex.getMessage() != null ? ex.getMessage() : &quot;Unexpected error&quot;);</span>
+        }
+
+        // 2) Campos comunes
+<span class="nc" id="L68">        body.put(&quot;timestamp&quot;, Instant.now().toString());</span>
+<span class="nc" id="L69">        body.put(&quot;status&quot;, status.value());</span>
+<span class="nc" id="L70">        body.put(&quot;path&quot;, exchange.getRequest().getPath().value() + &quot;(&quot;+exchange.getRequest().getMethod()+&quot;)&quot;);</span>
+
+        // 3) Escribir respuesta
+<span class="nc" id="L73">        var response = exchange.getResponse();</span>
+<span class="nc" id="L74">        response.setStatusCode(status);</span>
+<span class="nc" id="L75">        response.getHeaders().setContentType(MediaType.APPLICATION_JSON);</span>
+
+        try {
+<span class="nc" id="L78">            byte[] bytes = mapper.writeValueAsBytes(body);</span>
+<span class="nc" id="L79">            return response.writeWith(Mono.just(response.bufferFactory().wrap(bytes)));</span>
+<span class="nc" id="L80">        } catch (Exception writeErr) {</span>
+<span class="nc" id="L81">            byte[] fallback = &quot;{\&quot;status\&quot;:500,\&quot;message\&quot;:\&quot;Error writing JSON\&quot;}&quot;</span>
+<span class="nc" id="L82">                    .getBytes(StandardCharsets.UTF_8);</span>
+<span class="nc" id="L83">            response.setStatusCode(HttpStatus.INTERNAL_SERVER_ERROR);</span>
+<span class="nc" id="L84">            return response.writeWith(Mono.just(response.bufferFactory().wrap(fallback)));</span>
+        }
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.13.202504020838</span></div></body></html>
