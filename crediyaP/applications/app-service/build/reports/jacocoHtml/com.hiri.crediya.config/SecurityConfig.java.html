@@ -12,11 +12,11 @@ import org.springframework.security.web.server.SecurityWebFilterChain;
     
     @Bean
     public SecurityWebFilterChain securityWebFilterChain(ServerHttpSecurity http) {
-<span class="nc" id="L15">        return http</span>
-<span class="nc" id="L16">                .csrf(csrf -&gt; csrf.disable())</span>
-<span class="nc" id="L17">                .authorizeExchange(exchanges -&gt; exchanges</span>
-<span class="nc" id="L18">                        .pathMatchers(&quot;/actuator/**&quot;, &quot;/swagger-ui/**&quot;, &quot;/v3/api-docs/**&quot;, &quot;/&quot;).permitAll()</span>
-<span class="nc" id="L19">                        .anyExchange().authenticated()</span>
+<span class="nc" id="L15">        System.out.println(&quot;Start Security Config&quot;);</span>
+<span class="nc" id="L16">        return http</span>
+<span class="nc" id="L17">                .csrf(csrf -&gt; csrf.disable())</span>
+<span class="nc" id="L18">                .authorizeExchange(exchanges -&gt; exchanges</span>
+<span class="nc" id="L19">                        .anyExchange().permitAll()</span>
                 )
 <span class="nc" id="L21">                .build();</span>
     }

@@ -24,10 +24,10 @@ class AuthUseCaseTest {
     void shouldValidateAdminRoleSuccessfully() {
         // Given
         String token = "valid-token";
-        when(authRepository.validateAdminAdvisorRole(token)).thenReturn(Mono.just(true));
+        when(authRepository.validateAdminRole(token)).thenReturn(Mono.just(true));
         
         // When & Then
-        StepVerifier.create(authUseCase.isAdminOrAdvisor(token))
+        StepVerifier.create(authUseCase.isAdmin(token))
                 .expectNext(true)
                 .verifyComplete();
     }
@@ -48,10 +48,10 @@ class AuthUseCaseTest {
     void shouldReturnFalseWhenRoleValidationFails() {
         // Given
         String token = "invalid-token";
-        when(authRepository.validateAdminAdvisorRole(token)).thenReturn(Mono.just(false));
+        when(authRepository.validateAdminRole(token)).thenReturn(Mono.just(false));
         
         // When & Then
-        StepVerifier.create(authUseCase.isAdminOrAdvisor(token))
+        StepVerifier.create(authUseCase.isAdmin(token))
                 .expectNext(false)
                 .verifyComplete();
     }

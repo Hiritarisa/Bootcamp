@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.hiri.crediya.ArchitectureTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-09-15T04:57:20.124Z" hostname="MacBook-Pro-de-Nico.local" time="0.15">
+<testsuite name="com.hiri.crediya.ArchitectureTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-09-17T05:57:08.788Z" hostname="MacBook-Pro-de-Nico.local" time="0.13">
   <properties/>
-  <testcase name="domainClassesShouldNotBeNamedWithToolNames()" classname="com.hiri.crediya.ArchitectureTest" time="0.031"/>
-  <testcase name="domainClassesShouldNotHaveFieldsNamedWithToolNames()" classname="com.hiri.crediya.ArchitectureTest" time="0.009"/>
-  <testcase name="useCaseFinalFields()" classname="com.hiri.crediya.ArchitectureTest" time="0.005"/>
-  <testcase name="beansShouldOnlyHaveFinalFields()" classname="com.hiri.crediya.ArchitectureTest" time="0.029"/>
-  <testcase name="reactiveFlowsShouldUseAwsAsyncClients()" classname="com.hiri.crediya.ArchitectureTest" time="0.031"/>
-  <testcase name="domainClassesShouldNotBeNamedWithTechSuffixes()" classname="com.hiri.crediya.ArchitectureTest" time="0.006"/>
-  <system-out><![CDATA[23:57:18.350 [Test worker] INFO com.tngtech.archunit.core.PluginLoader -- Detected Java version 21.0.8
+  <testcase name="domainClassesShouldNotBeNamedWithToolNames()" classname="com.hiri.crediya.ArchitectureTest" time="0.027"/>
+  <testcase name="domainClassesShouldNotHaveFieldsNamedWithToolNames()" classname="com.hiri.crediya.ArchitectureTest" time="0.008"/>
+  <testcase name="useCaseFinalFields()" classname="com.hiri.crediya.ArchitectureTest" time="0.003"/>
+  <testcase name="beansShouldOnlyHaveFinalFields()" classname="com.hiri.crediya.ArchitectureTest" time="0.014"/>
+  <testcase name="reactiveFlowsShouldUseAwsAsyncClients()" classname="com.hiri.crediya.ArchitectureTest" time="0.023"/>
+  <testcase name="domainClassesShouldNotBeNamedWithTechSuffixes()" classname="com.hiri.crediya.ArchitectureTest" time="0.005"/>
+  <system-out><![CDATA[00:57:07.831 [Test worker] INFO com.tngtech.archunit.core.PluginLoader -- Detected Java version 21.0.8
 ]]></system-out>
-  <system-err><![CDATA[sept 14, 2025 11:57:20 P. M. com.hiri.crediya.ArchitectureTest checkWithWarning
+  <system-err><![CDATA[sept 17, 2025 12:57:08 A. M. com.hiri.crediya.ArchitectureTest checkWithWarning
 ADVERTENCIA: ARCHITECTURE_RULE_VIOLATED: This will cause a build error in future.
 Please review our wiki at https://bancolombia.github.io/scaffold-clean-architecture/docs/advanced/arch-unit-analysis
 java.lang.AssertionError: Architecture Violation [Priority: MEDIUM] - Rule 'Rule_2.7: Beans classes should only have final attributes (injection by constructor) to avoid concurrency issues' was violated (1 times):
@@ -107,7 +107,7 @@ Field <com.hiri.crediya.infrastructure.drivenadapters.httpclient.AuthServiceClie
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 
-sept 14, 2025 11:57:20 P. M. com.hiri.crediya.ArchitectureTest checkWithWarning
+sept 17, 2025 12:57:08 A. M. com.hiri.crediya.ArchitectureTest checkWithWarning
 ADVERTENCIA: ARCHITECTURE_RULE_VIOLATED: This will cause a build error in future.
 Please review our wiki at https://bancolombia.github.io/scaffold-clean-architecture/docs/advanced/arch-unit-analysis
 java.lang.AssertionError: Architecture Violation [Priority: MEDIUM] - Rule 'Rule_2.2: Domain classes should not be named with technology suffixes' was violated (1 times):

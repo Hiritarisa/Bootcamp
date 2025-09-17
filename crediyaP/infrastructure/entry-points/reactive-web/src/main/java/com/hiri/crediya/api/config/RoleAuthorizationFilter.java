@@ -40,15 +40,15 @@ public class RoleAuthorizationFilter implements WebFilter {
 
         // Validar según el endpoint
         if (requiresAdminRole(path, method)) {
-            log.info("Validating admin/advisor role for endpoint: {} {}", method, path);
-            return authUseCase.isAdminOrAdvisor(token)
+            log.info("Validating admin role for endpoint: {} {}", method, path);
+            return authUseCase.isAdmin(token)
                     .flatMap(isAuthorized -> {
                         if (isAuthorized) {
-                            log.info("Admin/advisor role validated successfully for: {} {}", method, path);
+                            log.info("Admin role validated successfully for: {} {}", method, path);
                             return chain.filter(exchange);
                         } else {
-                            log.warn("Admin/advisor role validation failed for: {} {}", method, path);
-                            return forbiddenResponse(exchange, "Admin/Advisor role required");
+                            log.warn("Admin role validation failed for: {} {}", method, path);
+                            return forbiddenResponse(exchange, "Admin role required");
                         }
                     })
                     .onErrorResume(error -> {
@@ -96,8 +96,8 @@ public class RoleAuthorizationFilter implements WebFilter {
     }
 
     private boolean requiresClientRole(String path, String method) {
-        // Ver usuario específico requiere CLIENT
-        return (path.startsWith("/api/v1/usuarios") && "GET".equals(method) && path.contains("/"));
+        // Listado de usuarios y ver usuario específico por documento requiere CLIENT
+        return (path.startsWith("/api/v1/usuarios") && "GET".equals(method));
     }
 
     private String extractTokenFromRequest(ServerHttpRequest request) {

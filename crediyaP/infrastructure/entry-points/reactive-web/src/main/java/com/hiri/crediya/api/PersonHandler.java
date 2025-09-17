@@ -6,10 +6,13 @@ import com.hiri.crediya.api.dto.PersonResponse;
 import com.hiri.crediya.model.person.Person;
 import com.hiri.crediya.usecase.personregistry.PersonUseCase;
 import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.Parameter;
+import io.swagger.v3.oas.annotations.enums.ParameterIn;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;
 import io.swagger.v3.oas.annotations.parameters.RequestBody;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Validator;
 import lombok.RequiredArgsConstructor;
@@ -38,6 +41,23 @@ public class PersonHandler {
     private final Validator validator;
     public final Integer DEFAULT_ROLE_ID = 3;
 
+    @Operation(
+            summary = "Create new user",
+            description = "Creates a new user in the system",
+            security = @SecurityRequirement(name = "bearerAuth"),
+            requestBody = @RequestBody(
+                    description = "User data to create",
+                    required = true,
+                    content = @Content(schema = @Schema(implementation = PersonRequest.class))
+            ),
+            responses = {
+                    @ApiResponse(responseCode = "201", description = "User created successfully",
+                            content = @Content(schema = @Schema(implementation = PersonResponse.class))),
+                    @ApiResponse(responseCode = "400", description = "Invalid input data"),
+                    @ApiResponse(responseCode = "401", description = "Unauthorized"),
+                    @ApiResponse(responseCode = "500", description = "Internal server error")
+            }
+    )
     public Mono<ServerResponse> create(ServerRequest req) {
         return req.bodyToMono(PersonRequest.class)
                 .flatMap(this::validate)
@@ -51,6 +71,19 @@ public class PersonHandler {
                 });
     }
 
+    @Operation(
+            summary = "Get user by document",
+            description = "Gets user information by document number",
+            security = @SecurityRequirement(name = "bearerAuth"),
+            parameters = @Parameter(name = "document", description = "Document number", 
+                    required = true, in = ParameterIn.PATH),
+            responses = {
+                    @ApiResponse(responseCode = "200", description = "User found",
+                            content = @Content(schema = @Schema(implementation = PersonResponse.class))),
+                    @ApiResponse(responseCode = "404", description = "User not found"),
+                    @ApiResponse(responseCode = "401", description = "Unauthorized")
+            }
+    )
     public Mono<ServerResponse> getPerson(ServerRequest req) {
         String document = req.pathVariable("document");
         return personUseCase.findByDocument(document)
@@ -61,6 +94,20 @@ public class PersonHandler {
                 });
     }
 
+    @Operation(
+            summary = "List users",
+            description = "Gets a paginated list of users",
+            security = @SecurityRequirement(name = "bearerAuth"),
+            parameters = {
+                    @Parameter(name = "page", description = "Page number", in = ParameterIn.QUERY),
+                    @Parameter(name = "limit", description = "Items per page", in = ParameterIn.QUERY)
+            },
+            responses = {
+                    @ApiResponse(responseCode = "200", description = "User list retrieved",
+                            content = @Content(schema = @Schema(type = "array", implementation = PersonResponse.class))),
+                    @ApiResponse(responseCode = "401", description = "Unauthorized")
+            }
+    )
     public Mono<ServerResponse> getAllPersons(ServerRequest req) {
         int page = 1;
         int limit = 10;
@@ -82,6 +129,19 @@ public class PersonHandler {
                 });
     }
 
+    @Operation(
+            summary = "Delete user",
+            description = "Deletes a user from the system",
+            security = @SecurityRequirement(name = "bearerAuth"),
+            parameters = @Parameter(name = "id", description = "User ID", 
+                    required = true, in = ParameterIn.PATH),
+            responses = {
+                    @ApiResponse(responseCode = "200", description = "User deleted",
+                            content = @Content(schema = @Schema(implementation = DeleteResponse.class))),
+                    @ApiResponse(responseCode = "404", description = "User not found"),
+                    @ApiResponse(responseCode = "401", description = "Unauthorized")
+            }
+    )
     public Mono<ServerResponse> delete(ServerRequest req) {
         UUID ID = UUID.fromString(req.pathVariable("id"));
         return personUseCase.delete(ID)
@@ -93,6 +153,23 @@ public class PersonHandler {
                 });
     }
 
+    @Operation(
+            summary = "Update user",
+            description = "Updates user information",
+            security = @SecurityRequirement(name = "bearerAuth"),
+            requestBody = @RequestBody(
+                    description = "Updated user data",
+                    required = true,
+                    content = @Content(schema = @Schema(implementation = PersonRequest.class))
+            ),
+            responses = {
+                    @ApiResponse(responseCode = "202", description = "User updated",
+                            content = @Content(schema = @Schema(implementation = PersonResponse.class))),
+                    @ApiResponse(responseCode = "400", description = "Invalid data"),
+                    @ApiResponse(responseCode = "404", description = "User not found"),
+                    @ApiResponse(responseCode = "401", description = "Unauthorized")
+            }
+    )
     public Mono<ServerResponse> update(ServerRequest req) {
         return req.bodyToMono(PersonRequest.class)
                 .flatMap(this::validate)

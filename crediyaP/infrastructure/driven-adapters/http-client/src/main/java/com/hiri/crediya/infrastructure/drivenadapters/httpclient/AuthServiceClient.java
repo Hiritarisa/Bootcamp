@@ -21,16 +21,29 @@ public class AuthServiceClient implements AuthRepository {
     private String authServiceUrl;
     
     @Override
-    public Mono<Boolean> validateAdminAdvisorRole(String token) {
-        log.info("Calling auth service to validate admin/advisor role at: {}", authServiceUrl);
+    public Mono<Boolean> validateAdminRole(String token) {
+        log.info("Calling auth service to validate admin role at: {}", authServiceUrl);
         return webClient.get()
-                .uri(authServiceUrl + "/api/v1/validate/admin-advisor")
+                .uri(authServiceUrl + "/api/v1/validate/admin")
                 .header(HttpHeaders.AUTHORIZATION, "Bearer " + token)
                 .retrieve()
                 .bodyToMono(RoleValidationResponse.class)
                 .map(RoleValidationResponse::isAuthorized)
-                .doOnSuccess(authorized -> log.info("Admin/advisor validation successful: {}", authorized))
-                .doOnError(error -> log.error("Admin/advisor validation failed: {}", error.getMessage()));
+                .doOnSuccess(authorized -> log.info("Admin validation successful: {}", authorized))
+                .doOnError(error -> log.error("Admin validation failed: {}", error.getMessage()));
+    }
+
+    @Override
+    public Mono<Boolean> validateAdvisorRole(String token) {
+        log.info("Calling auth service to validate advisor role at: {}", authServiceUrl);
+        return webClient.get()
+                .uri(authServiceUrl + "/api/v1/validate/advisor")
+                .header(HttpHeaders.AUTHORIZATION, "Bearer " + token)
+                .retrieve()
+                .bodyToMono(RoleValidationResponse.class)
+                .map(RoleValidationResponse::isAuthorized)
+                .doOnSuccess(authorized -> log.info("Advisor validation successful: {}", authorized))
+                .doOnError(error -> log.error("Advisor validation failed: {}", error.getMessage()));
     }
     
     @Override

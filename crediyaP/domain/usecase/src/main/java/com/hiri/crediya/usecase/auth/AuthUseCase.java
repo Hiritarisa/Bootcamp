@@ -11,8 +11,12 @@ public class AuthUseCase {
         this.authRepository = authRepository;
     }
     
-    public Mono<Boolean> isAdminOrAdvisor(String token) {
-        return authRepository.validateAdminAdvisorRole(token);
+    public Mono<Boolean> isAdmin(String token) {
+        return authRepository.validateAdminRole(token);
+    }
+
+    public Mono<Boolean> isAdvisor(String token) {
+        return authRepository.validateAdvisorRole(token);
     }
     
     public Mono<Boolean> isClient(String token) {
