@@ -35,7 +35,7 @@ public class RoleAuthorizationFilter implements WebFilter {
         String token = extractTokenFromRequest(request);
         if (token == null) {
             log.warn("No token found in request to: {}", path);
-            return unauthorizedResponse(exchange);
+            return errorResponse(exchange, "No token found in request");
         }
 
         // Validar según el endpoint
@@ -48,12 +48,12 @@ public class RoleAuthorizationFilter implements WebFilter {
                             return chain.filter(exchange);
                         } else {
                             log.warn("Admin role validation failed for: {} {}", method, path);
-                            return forbiddenResponse(exchange, "Admin role required");
+                            return errorResponse(exchange, "Admin role required");
                         }
                     })
                     .onErrorResume(error -> {
                         log.error("Error validating admin role: {}", error.getMessage());
-                        return unauthorizedResponse(exchange);
+                        return errorResponse(exchange, error.getMessage());
                     });
         }
 
@@ -66,12 +66,12 @@ public class RoleAuthorizationFilter implements WebFilter {
                             return chain.filter(exchange);
                         } else {
                             log.warn("Client role validation failed for: {} {}", method, path);
-                            return forbiddenResponse(exchange, "Client role required");
+                            return errorResponse(exchange, "Client role required");
                         }
                     })
                     .onErrorResume(error -> {
                         log.error("Error validating client role: {}", error.getMessage());
-                        return unauthorizedResponse(exchange);
+                        return errorResponse(exchange, error.getMessage());
                     });
         }
 
@@ -92,7 +92,9 @@ public class RoleAuthorizationFilter implements WebFilter {
         // Crear, eliminar y actualizar usuarios requiere ADMIN/ADVISOR
         return (path.startsWith("/api/v1/usuarios") && "POST".equals(method)) ||
                 (path.startsWith("/api/v1/usuarios") && "DELETE".equals(method)) ||
-                (path.startsWith("/api/v1/usuarios") && "PATCH".equals(method));
+                (path.startsWith("/api/v1/usuarios") && "PATCH".equals(method)) ||
+                (path.startsWith("/api/v1/usuarios") && "GET".equals(method)) ||
+                (path.startsWith("/api/v1/usuarios/") && "GET".equals(method));
     }
 
     private boolean requiresClientRole(String path, String method) {
@@ -108,19 +110,10 @@ public class RoleAuthorizationFilter implements WebFilter {
         return null;
     }
 
-    private Mono<Void> unauthorizedResponse(ServerWebExchange exchange) {
-        exchange.getResponse().setStatusCode(HttpStatus.UNAUTHORIZED);
+    private Mono<Void> errorResponse(ServerWebExchange exchange, String message) {
+        exchange.getResponse().setStatusCode(HttpStatus.INTERNAL_SERVER_ERROR);
         exchange.getResponse().getHeaders().add("Content-Type", "application/json");
-        String body = "{\"error\":\"Unauthorized\",\"message\":\"Missing or invalid token\"}";
-        return exchange.getResponse().writeWith(
-                Mono.just(exchange.getResponse().bufferFactory().wrap(body.getBytes()))
-        );
-    }
-
-    private Mono<Void> forbiddenResponse(ServerWebExchange exchange, String message) {
-        exchange.getResponse().setStatusCode(HttpStatus.FORBIDDEN);
-        exchange.getResponse().getHeaders().add("Content-Type", "application/json");
-        String body = String.format("{\"error\":\"Forbidden\",\"message\":\"%s\"}", message);
+        String body = String.format("{\"message\":\"%s\"}", message);
         return exchange.getResponse().writeWith(
                 Mono.just(exchange.getResponse().bufferFactory().wrap(body.getBytes()))
         );
