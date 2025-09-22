@@ -8,16 +8,16 @@ import org.springframework.transaction.ReactiveTransactionManager;
 import org.springframework.transaction.reactive.TransactionalOperator;
 
 @Configuration
-<span class="nc" id="L11">public class R2dbcTxConfig {</span>
+<span class="fc" id="L11">public class R2dbcTxConfig {</span>
 
     @Bean
     public ReactiveTransactionManager r2dbcTransactionManager(ConnectionFactory cf) {
-<span class="nc" id="L15">        return new R2dbcTransactionManager(cf);</span>
+<span class="fc" id="L15">        return new R2dbcTransactionManager(cf);</span>
     }
 
     @Bean
     public TransactionalOperator transactionalOperator(ReactiveTransactionManager tm) {
-<span class="nc" id="L20">        return TransactionalOperator.create(tm);</span>
+<span class="fc" id="L20">        return TransactionalOperator.create(tm);</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.13.202504020838</span></div></body></html>

@@ -8,16 +8,16 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-<span class="nc" id="L11">public class UseCasesConfig {</span>
+<span class="fc" id="L11">public class UseCasesConfig {</span>
 
     @Bean
     public PersonUseCase personUseCase(PersonRepository repository) {
-<span class="nc" id="L15">        return new PersonUseCase(repository);</span>
+<span class="fc" id="L15">        return new PersonUseCase(repository);</span>
     }
 
     @Bean
     public AuthUseCase authUseCase(AuthRepository authRepository) {
-<span class="nc" id="L20">        return new AuthUseCase(authRepository);</span>
+<span class="fc" id="L20">        return new AuthUseCase(authRepository);</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.13.202504020838</span></div></body></html>

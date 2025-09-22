@@ -153,7 +153,7 @@
 <td class=''><pre><span  class=''>@Configuration</span></pre></td></tr>
 
 <tr>
-<td class='uncovered'>
+<td class='covered'>
 <a name='org.pitest.mutationtest.report.html.SourceFile@13d73f29_11'/>
 11
 </td>
@@ -164,7 +164,7 @@
 </span>
 </span>
 </td>
-<td class='uncovered'><pre><span  class=''>public class UseCasesConfig {</span></pre></td></tr>
+<td class='covered'><pre><span  class=''>public class UseCasesConfig {</span></pre></td></tr>
 
 <tr>
 <td class='na'>
@@ -209,7 +209,7 @@
 <td class=''><pre><span  class=''>    public PersonUseCase personUseCase(PersonRepository repository) {</span></pre></td></tr>
 
 <tr>
-<td class='uncovered'>
+<td class='covered'>
 <a name='org.pitest.mutationtest.report.html.SourceFile@13d73f29_15'/>
 15
 </td>
@@ -217,12 +217,12 @@
 <span class='pop'>
 <a href='#grouporg.pitest.mutationtest.report.html.SourceFile@13d73f29_15'>1</a>
 <span>
-1. personUseCase : replaced return value with null for com/hiri/crediya/config/UseCasesConfig::personUseCase &rarr; NO_COVERAGE<br/>
+1. personUseCase : replaced return value with null for com/hiri/crediya/config/UseCasesConfig::personUseCase &rarr; SURVIVED<br/>
 
 </span>
 </span>
 </td>
-<td class='uncovered'><pre><span  class='survived'>        return new PersonUseCase(repository);</span></pre></td></tr>
+<td class='covered'><pre><span  class='survived'>        return new PersonUseCase(repository);</span></pre></td></tr>
 
 <tr>
 <td class='na'>
@@ -281,7 +281,7 @@
 <td class=''><pre><span  class=''>    public AuthUseCase authUseCase(AuthRepository authRepository) {</span></pre></td></tr>
 
 <tr>
-<td class='uncovered'>
+<td class='covered'>
 <a name='org.pitest.mutationtest.report.html.SourceFile@13d73f29_20'/>
 20
 </td>
@@ -289,12 +289,12 @@
 <span class='pop'>
 <a href='#grouporg.pitest.mutationtest.report.html.SourceFile@13d73f29_20'>1</a>
 <span>
-1. authUseCase : replaced return value with null for com/hiri/crediya/config/UseCasesConfig::authUseCase &rarr; NO_COVERAGE<br/>
+1. authUseCase : replaced return value with null for com/hiri/crediya/config/UseCasesConfig::authUseCase &rarr; SURVIVED<br/>
 
 </span>
 </span>
 </td>
-<td class='uncovered'><pre><span  class='survived'>        return new AuthUseCase(authRepository);</span></pre></td></tr>
+<td class='covered'><pre><span  class='survived'>        return new AuthUseCase(authRepository);</span></pre></td></tr>
 
 <tr>
 <td class='na'>
@@ -335,8 +335,13 @@
 
 <a name='grouporg.pitest.mutationtest.report.html.SourceFile@13d73f29_15'/> 
 
-<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>personUseCase<br/><b>Killed by : </b>none</span></span> replaced return value with null for com/hiri/crediya/config/UseCasesConfig::personUseCase &rarr; NO_COVERAGE</span>
-</div> 
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>personUseCase<br/><b>Killed by : </b>none</span></span> replaced return value with null for com/hiri/crediya/config/UseCasesConfig::personUseCase &rarr; SURVIVED</span>
+<a title="Click to view covering tests" class="view-covered-by-tests" onClick="document.getElementById('MutationIdentifier-[location=Location-[clazz=com.hiri.crediya.config.UseCasesConfig,-method=personUseCase,-methodDesc=(Lcom/hiri/crediya/model/person/gateways/PersonRepository;)Lcom/hiri/crediya/usecase/personregistry/PersonUseCase;],-indexes=[7],-mutator=org.pitest.mutationtest.engine.gregor.mutators.returns.NullReturnValsMutator]').style.display=(document.getElementById('MutationIdentifier-[location=Location-[clazz=com.hiri.crediya.config.UseCasesConfig,-method=personUseCase,-methodDesc=(Lcom/hiri/crediya/model/person/gateways/PersonRepository;)Lcom/hiri/crediya/usecase/personregistry/PersonUseCase;],-indexes=[7],-mutator=org.pitest.mutationtest.engine.gregor.mutators.returns.NullReturnValsMutator]').style.display == 'block')?'none':'block';">Covering tests</a>
+<div class="covered-tests" id="MutationIdentifier-[location=Location-[clazz=com.hiri.crediya.config.UseCasesConfig,-method=personUseCase,-methodDesc=(Lcom/hiri/crediya/model/person/gateways/PersonRepository;)Lcom/hiri/crediya/usecase/personregistry/PersonUseCase;],-indexes=[7],-mutator=org.pitest.mutationtest.engine.gregor.mutators.returns.NullReturnValsMutator]" style="display:none;">Covered by tests:
+<ul>
+<li>com.hiri.crediya.integration.PersonIntegrationTest.[engine:junit-jupiter]/[class:com.hiri.crediya.integration.PersonIntegrationTest]/[method:shouldDeletePersonSuccessfully()]</li> <li>com.hiri.crediya.MainApplicationTest.[engine:junit-jupiter]/[class:com.hiri.crediya.MainApplicationTest]/[method:contextLoads()]</li> 
+</ul>
+</div></div> 
 </td>
 </tr>
 <tr>
@@ -346,8 +351,13 @@
 
 <a name='grouporg.pitest.mutationtest.report.html.SourceFile@13d73f29_20'/> 
 
-<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>authUseCase<br/><b>Killed by : </b>none</span></span> replaced return value with null for com/hiri/crediya/config/UseCasesConfig::authUseCase &rarr; NO_COVERAGE</span>
-</div> 
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>authUseCase<br/><b>Killed by : </b>none</span></span> replaced return value with null for com/hiri/crediya/config/UseCasesConfig::authUseCase &rarr; SURVIVED</span>
+<a title="Click to view covering tests" class="view-covered-by-tests" onClick="document.getElementById('MutationIdentifier-[location=Location-[clazz=com.hiri.crediya.config.UseCasesConfig,-method=authUseCase,-methodDesc=(Lcom/hiri/crediya/model/auth/gateways/AuthRepository;)Lcom/hiri/crediya/usecase/auth/AuthUseCase;],-indexes=[7],-mutator=org.pitest.mutationtest.engine.gregor.mutators.returns.NullReturnValsMutator]').style.display=(document.getElementById('MutationIdentifier-[location=Location-[clazz=com.hiri.crediya.config.UseCasesConfig,-method=authUseCase,-methodDesc=(Lcom/hiri/crediya/model/auth/gateways/AuthRepository;)Lcom/hiri/crediya/usecase/auth/AuthUseCase;],-indexes=[7],-mutator=org.pitest.mutationtest.engine.gregor.mutators.returns.NullReturnValsMutator]').style.display == 'block')?'none':'block';">Covering tests</a>
+<div class="covered-tests" id="MutationIdentifier-[location=Location-[clazz=com.hiri.crediya.config.UseCasesConfig,-method=authUseCase,-methodDesc=(Lcom/hiri/crediya/model/auth/gateways/AuthRepository;)Lcom/hiri/crediya/usecase/auth/AuthUseCase;],-indexes=[7],-mutator=org.pitest.mutationtest.engine.gregor.mutators.returns.NullReturnValsMutator]" style="display:none;">Covered by tests:
+<ul>
+<li>com.hiri.crediya.integration.PersonIntegrationTest.[engine:junit-jupiter]/[class:com.hiri.crediya.integration.PersonIntegrationTest]/[method:shouldDeletePersonSuccessfully()]</li> <li>com.hiri.crediya.MainApplicationTest.[engine:junit-jupiter]/[class:com.hiri.crediya.MainApplicationTest]/[method:contextLoads()]</li> 
+</ul>
+</div></div> 
 </td>
 </tr>
 
@@ -372,6 +382,7 @@
 
 <h2>Tests examined</h2>
 <ul>
+<li>com.hiri.crediya.integration.PersonIntegrationTest.[engine:junit-jupiter]/[class:com.hiri.crediya.integration.PersonIntegrationTest]/[method:shouldDeletePersonSuccessfully()] (135 ms)</li><li>com.hiri.crediya.MainApplicationTest.[engine:junit-jupiter]/[class:com.hiri.crediya.MainApplicationTest]/[method:contextLoads()] (196 ms)</li>
 </ul>
 
 <br/>

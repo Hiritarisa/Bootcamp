@@ -153,7 +153,7 @@
 <td class=''><pre><span  class=''>@EnableWebFluxSecurity</span></pre></td></tr>
 
 <tr>
-<td class='uncovered'>
+<td class='covered'>
 <a name='org.pitest.mutationtest.report.html.SourceFile@49b2a47d_11'/>
 11
 </td>
@@ -164,7 +164,7 @@
 </span>
 </span>
 </td>
-<td class='uncovered'><pre><span  class=''>public class SecurityConfig {</span></pre></td></tr>
+<td class='covered'><pre><span  class=''>public class SecurityConfig {</span></pre></td></tr>
 
 <tr>
 <td class='na'>
@@ -209,7 +209,7 @@
 <td class=''><pre><span  class=''>    public SecurityWebFilterChain securityWebFilterChain(ServerHttpSecurity http) {</span></pre></td></tr>
 
 <tr>
-<td class='uncovered'>
+<td class='covered'>
 <a name='org.pitest.mutationtest.report.html.SourceFile@49b2a47d_15'/>
 15
 </td>
@@ -217,15 +217,15 @@
 <span class='pop'>
 <a href='#grouporg.pitest.mutationtest.report.html.SourceFile@49b2a47d_15'>1</a>
 <span>
-1. securityWebFilterChain : removed call to java/io/PrintStream::println &rarr; NO_COVERAGE<br/>
+1. securityWebFilterChain : removed call to java/io/PrintStream::println &rarr; SURVIVED<br/>
 
 </span>
 </span>
 </td>
-<td class='uncovered'><pre><span  class='survived'>        System.out.println(&#34;Start Security Config&#34;);</span></pre></td></tr>
+<td class='covered'><pre><span  class='survived'>        System.out.println(&#34;Start Security Config&#34;);</span></pre></td></tr>
 
 <tr>
-<td class='uncovered'>
+<td class='covered'>
 <a name='org.pitest.mutationtest.report.html.SourceFile@49b2a47d_16'/>
 16
 </td>
@@ -233,15 +233,15 @@
 <span class='pop'>
 <a href='#grouporg.pitest.mutationtest.report.html.SourceFile@49b2a47d_16'>1</a>
 <span>
-1. securityWebFilterChain : replaced return value with null for com/hiri/crediya/config/SecurityConfig::securityWebFilterChain &rarr; NO_COVERAGE<br/>
+1. securityWebFilterChain : replaced return value with null for com/hiri/crediya/config/SecurityConfig::securityWebFilterChain &rarr; SURVIVED<br/>
 
 </span>
 </span>
 </td>
-<td class='uncovered'><pre><span  class='survived'>        return http</span></pre></td></tr>
+<td class='covered'><pre><span  class='survived'>        return http</span></pre></td></tr>
 
 <tr>
-<td class='uncovered'>
+<td class='covered'>
 <a name='org.pitest.mutationtest.report.html.SourceFile@49b2a47d_17'/>
 17
 </td>
@@ -252,10 +252,10 @@
 </span>
 </span>
 </td>
-<td class='uncovered'><pre><span  class=''>                .csrf(csrf -&#62; csrf.disable())</span></pre></td></tr>
+<td class='covered'><pre><span  class=''>                .csrf(csrf -&#62; csrf.disable())</span></pre></td></tr>
 
 <tr>
-<td class='uncovered'>
+<td class='covered'>
 <a name='org.pitest.mutationtest.report.html.SourceFile@49b2a47d_18'/>
 18
 </td>
@@ -266,10 +266,10 @@
 </span>
 </span>
 </td>
-<td class='uncovered'><pre><span  class=''>                .authorizeExchange(exchanges -&#62; exchanges</span></pre></td></tr>
+<td class='covered'><pre><span  class=''>                .authorizeExchange(exchanges -&#62; exchanges</span></pre></td></tr>
 
 <tr>
-<td class='uncovered'>
+<td class='covered'>
 <a name='org.pitest.mutationtest.report.html.SourceFile@49b2a47d_19'/>
 19
 </td>
@@ -280,7 +280,7 @@
 </span>
 </span>
 </td>
-<td class='uncovered'><pre><span  class=''>                        .anyExchange().permitAll()</span></pre></td></tr>
+<td class='covered'><pre><span  class=''>                        .anyExchange().permitAll()</span></pre></td></tr>
 
 <tr>
 <td class='na'>
@@ -297,7 +297,7 @@
 <td class=''><pre><span  class=''>                )</span></pre></td></tr>
 
 <tr>
-<td class='uncovered'>
+<td class='covered'>
 <a name='org.pitest.mutationtest.report.html.SourceFile@49b2a47d_21'/>
 21
 </td>
@@ -308,7 +308,7 @@
 </span>
 </span>
 </td>
-<td class='uncovered'><pre><span  class=''>                .build();</span></pre></td></tr>
+<td class='covered'><pre><span  class=''>                .build();</span></pre></td></tr>
 
 <tr>
 <td class='na'>
@@ -349,8 +349,13 @@
 
 <a name='grouporg.pitest.mutationtest.report.html.SourceFile@49b2a47d_15'/> 
 
-<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>securityWebFilterChain<br/><b>Killed by : </b>none</span></span> removed call to java/io/PrintStream::println &rarr; NO_COVERAGE</span>
-</div> 
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>securityWebFilterChain<br/><b>Killed by : </b>none</span></span> removed call to java/io/PrintStream::println &rarr; SURVIVED</span>
+<a title="Click to view covering tests" class="view-covered-by-tests" onClick="document.getElementById('MutationIdentifier-[location=Location-[clazz=com.hiri.crediya.config.SecurityConfig,-method=securityWebFilterChain,-methodDesc=(Lorg/springframework/security/config/web/server/ServerHttpSecurity;)Lorg/springframework/security/web/server/SecurityWebFilterChain;],-indexes=[5],-mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator]').style.display=(document.getElementById('MutationIdentifier-[location=Location-[clazz=com.hiri.crediya.config.SecurityConfig,-method=securityWebFilterChain,-methodDesc=(Lorg/springframework/security/config/web/server/ServerHttpSecurity;)Lorg/springframework/security/web/server/SecurityWebFilterChain;],-indexes=[5],-mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator]').style.display == 'block')?'none':'block';">Covering tests</a>
+<div class="covered-tests" id="MutationIdentifier-[location=Location-[clazz=com.hiri.crediya.config.SecurityConfig,-method=securityWebFilterChain,-methodDesc=(Lorg/springframework/security/config/web/server/ServerHttpSecurity;)Lorg/springframework/security/web/server/SecurityWebFilterChain;],-indexes=[5],-mutator=org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator]" style="display:none;">Covered by tests:
+<ul>
+<li>com.hiri.crediya.integration.PersonIntegrationTest.[engine:junit-jupiter]/[class:com.hiri.crediya.integration.PersonIntegrationTest]/[method:shouldDeletePersonSuccessfully()]</li> <li>com.hiri.crediya.MainApplicationTest.[engine:junit-jupiter]/[class:com.hiri.crediya.MainApplicationTest]/[method:contextLoads()]</li> 
+</ul>
+</div></div> 
 </td>
 </tr>
 <tr>
@@ -360,8 +365,13 @@
 
 <a name='grouporg.pitest.mutationtest.report.html.SourceFile@49b2a47d_16'/> 
 
-<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>securityWebFilterChain<br/><b>Killed by : </b>none</span></span> replaced return value with null for com/hiri/crediya/config/SecurityConfig::securityWebFilterChain &rarr; NO_COVERAGE</span>
-</div> 
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>securityWebFilterChain<br/><b>Killed by : </b>none</span></span> replaced return value with null for com/hiri/crediya/config/SecurityConfig::securityWebFilterChain &rarr; SURVIVED</span>
+<a title="Click to view covering tests" class="view-covered-by-tests" onClick="document.getElementById('MutationIdentifier-[location=Location-[clazz=com.hiri.crediya.config.SecurityConfig,-method=securityWebFilterChain,-methodDesc=(Lorg/springframework/security/config/web/server/ServerHttpSecurity;)Lorg/springframework/security/web/server/SecurityWebFilterChain;],-indexes=[22],-mutator=org.pitest.mutationtest.engine.gregor.mutators.returns.NullReturnValsMutator]').style.display=(document.getElementById('MutationIdentifier-[location=Location-[clazz=com.hiri.crediya.config.SecurityConfig,-method=securityWebFilterChain,-methodDesc=(Lorg/springframework/security/config/web/server/ServerHttpSecurity;)Lorg/springframework/security/web/server/SecurityWebFilterChain;],-indexes=[22],-mutator=org.pitest.mutationtest.engine.gregor.mutators.returns.NullReturnValsMutator]').style.display == 'block')?'none':'block';">Covering tests</a>
+<div class="covered-tests" id="MutationIdentifier-[location=Location-[clazz=com.hiri.crediya.config.SecurityConfig,-method=securityWebFilterChain,-methodDesc=(Lorg/springframework/security/config/web/server/ServerHttpSecurity;)Lorg/springframework/security/web/server/SecurityWebFilterChain;],-indexes=[22],-mutator=org.pitest.mutationtest.engine.gregor.mutators.returns.NullReturnValsMutator]" style="display:none;">Covered by tests:
+<ul>
+<li>com.hiri.crediya.integration.PersonIntegrationTest.[engine:junit-jupiter]/[class:com.hiri.crediya.integration.PersonIntegrationTest]/[method:shouldDeletePersonSuccessfully()]</li> <li>com.hiri.crediya.MainApplicationTest.[engine:junit-jupiter]/[class:com.hiri.crediya.MainApplicationTest]/[method:contextLoads()]</li> 
+</ul>
+</div></div> 
 </td>
 </tr>
 
@@ -386,6 +396,7 @@
 
 <h2>Tests examined</h2>
 <ul>
+<li>com.hiri.crediya.integration.PersonIntegrationTest.[engine:junit-jupiter]/[class:com.hiri.crediya.integration.PersonIntegrationTest]/[method:shouldDeletePersonSuccessfully()] (135 ms)</li><li>com.hiri.crediya.MainApplicationTest.[engine:junit-jupiter]/[class:com.hiri.crediya.MainApplicationTest]/[method:contextLoads()] (196 ms)</li>
 </ul>
 
 <br/>
