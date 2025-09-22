@@ -9,9 +9,9 @@ spring:
   devtools:
     add-properties: false
   r2dbc:
-    url: r2dbc:postgresql://localhost:5433/crediYa
-    username: postgres
-    password: "1234@"
+    url: ${SPRING_DATASOURCE_URL:r2dbc:postgresql://localhost:5433/crediYa}
+    username: ${SPRING_DATASOURCE_USERNAME:postgres}
+    password: ${SPRING_DATASOURCE_PASSWORD:1234@}
     pool:
       enabled: true
       initial-size: 5
@@ -44,4 +44,4 @@ cors:
 
 auth:
   service:
-    url: http://localhost:8242
+    url: ${AUTH_SERVICE_URL:http://localhost:8242}
