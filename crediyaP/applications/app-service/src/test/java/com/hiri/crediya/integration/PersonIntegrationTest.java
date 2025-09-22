@@ -187,43 +187,11 @@ class PersonIntegrationTest {
 
         when(personRepository.existsByEmailOrDocument(anyString(), anyString())).thenReturn(Mono.just(false));
         when(personRepository.save(any(Person.class))).thenReturn(Mono.just(mockPerson));
-
-        String requestBody = """
-                {
-                    "id": "%s",
-                    "names": "Juan Carlos",
-                    "lastnames": "Pérez",
-                    "document": "12345678",
-                    "password": "password123",
-                    "email": "juan.perez@example.com",
-                    "baseSalary": 5000000,
-                    "birthdate": "1990-05-15",
-                    "address": "Calle 123",
-                    "phone": "3001234567",
-                    "role": "3"
-                }
-                """.formatted(personId);
-
     }
 
     @Test
     void shouldReturnBadRequestForInvalidData() {
         // Given - Invalid data that should trigger validation error
-        String invalidRequestBody = """
-                {
-                    "lastnames": "Pérez",
-                    "document": "12345678",
-                    "password": "password123",
-                    "email": "invalid-email",
-                    "baseSalary": 5000000,
-                    "birthdate": "1990-05-15",
-                    "address": "Calle 123",
-                    "phone": "3001234567"
-                }
-                """;
-
-        // When & Then - Mock response without external consumption
-        // Simulate BadRequest response without making real HTTP calls
         Map<String, Object> invalidRequestBodyMap = Map.of(
             "names", "", // Empty names field
             "lastnames", "Pérez",
@@ -235,7 +203,9 @@ class PersonIntegrationTest {
             "address", "Calle 123",
             "phone", "3001234567"
         );
-        
+
+        // When & Then - Mock response without external consumption
+        // Simulate BadRequest response without making real HTTP calls
         assertThat(invalidRequestBodyMap).isNotNull();
         assertThat(invalidRequestBodyMap.containsKey("names")).isTrue();
         assertThat(invalidRequestBodyMap.containsKey("lastnames")).isTrue();

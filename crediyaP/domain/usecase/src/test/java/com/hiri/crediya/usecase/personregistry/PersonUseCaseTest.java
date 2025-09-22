@@ -1,7 +1,6 @@
 package com.hiri.crediya.usecase.personregistry;
 
 import com.hiri.crediya.model.person.Person;
-import com.hiri.crediya.model.person.gateways.PersonRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import reactor.core.publisher.Flux;
@@ -194,11 +193,6 @@ class PersonUseCaseTest {
         public Mono<Person> findByDocument(String document) {
             return repository.findByDocument(document)
                     .switchIfEmpty(Mono.error(new PersonUseCase.PersonUseCaseException("Person not found: " + document)));
-        }
-
-        public Flux<Person> getList(int page, int size) {
-            return repository.getAllPersons(page, size)
-                    .switchIfEmpty(Mono.error(new PersonUseCase.PersonUseCaseException("There are no persons in the system")));
         }
 
         public Mono<Person> findById(UUID id) {

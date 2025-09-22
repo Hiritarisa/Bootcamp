@@ -132,7 +132,7 @@ class PersonHandlerTest {
     void shouldGetAllPersonsSuccessfully() {
         // Given
         ServerRequest serverRequest = mock(ServerRequest.class);
-        when(serverRequest.queryParams()).thenReturn(new org.springframework.util.LinkedMultiValueMap<String, String>() {{
+        when(serverRequest.queryParams()).thenReturn(new org.springframework.util.LinkedMultiValueMap<>() {{
             add("page", "1");
             add("limit", "10");
         }});

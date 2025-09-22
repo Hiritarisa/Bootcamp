@@ -1,6 +1,5 @@
 package com.hiri.crediya.usecase.auth;
 
-import com.hiri.crediya.model.auth.gateways.AuthRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import reactor.core.publisher.Mono;
